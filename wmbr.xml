@@ -3,1422 +3,1896 @@
   <channel>
     <title>WMBR Archive</title>
     <link>https://wmbr.org/cgi-bin/arch</link>
+    <itunes:image>https://wmbr.org/images/wmbr_logo_wmbr.svg</itunes:image>
     <description>The most recent WMBR episodes</description>
+    <itunes:category text="Music" />
+    <item>
+      <title>Midwest Pizzeria</title>
+      <guid>http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>596</itunes:duration>
+      <pubDate>Sun, 04 May 2025 18:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3" length="9542400" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Africa Kabisa</title>
+      <guid>http://wmbr.org/archive/Africa_Kabisa____5_4_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
+      <pubDate>Sun, 04 May 2025 16:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Africa_Kabisa____5_4_25_3%3A58_PM.mp3" length="119057400" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Treaty of Tordesillas</title>
+      <guid>http://wmbr.org/archive/Treaty_of_Tordesillas____5_4_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
+      <pubDate>Sun, 04 May 2025 14:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Treaty_of_Tordesillas____5_4_25_1%3A58_PM.mp3" length="119073646" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Subject to Change</title>
+      <guid>http://wmbr.org/archive/Subject_to_Change____5_4_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
+      <pubDate>Sun, 04 May 2025 12:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Subject_to_Change____5_4_25_11%3A58_AM.mp3" length="119083677" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Art &amp; Freight</title>
+      <guid>http://wmbr.org/archive/Art_%26_Freight____5_4_25_10%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
+      <pubDate>Sun, 04 May 2025 11:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Art_%26_Freight____5_4_25_10%3A58_AM.mp3" length="61414923" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Radio with a View</title>
+      <guid>http://wmbr.org/archive/Radio_with_a_View____5_4_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
+      <pubDate>Sun, 04 May 2025 10:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Radio_with_a_View____5_4_25_9%3A58_AM.mp3" length="61411997" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Haiti Focus</title>
+      <guid>http://wmbr.org/archive/Haiti_Focus____5_4_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
+      <pubDate>Sun, 04 May 2025 08:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Haiti_Focus____5_4_25_7%3A58_AM.mp3" length="119021819" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Compas sur FM</title>
+      <guid>http://wmbr.org/archive/Compas_sur_FM____5_4_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
+      <pubDate>Sun, 04 May 2025 06:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Compas_sur_FM____5_4_25_5%3A58_AM.mp3" length="119061107" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>The Pontoon Palace (rebroadcast)</title>
+      <guid>http://wmbr.org/archive/The_Pontoon_Palace_%28rebroadcast%29____5_4_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
+      <pubDate>Sun, 04 May 2025 04:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/The_Pontoon_Palace_%28rebroadcast%29____5_4_25_3%3A58_AM.mp3" length="119071974" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Lost and Found (rebroadcast)</title>
+      <guid>http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____5_4_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
+      <pubDate>Sun, 04 May 2025 02:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____5_4_25_1%3A58_AM.mp3" length="119017639" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Zero Monthly Listeners (rebroadcast)</title>
+      <guid>http://wmbr.org/archive/Zero_Monthly_Listeners_%28rebroadcast%29____5_4_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
+      <pubDate>Sun, 04 May 2025 01:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Zero_Monthly_Listeners_%28rebroadcast%29____5_4_25_12%3A58_AM.mp3" length="61423282" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>The Big Beat (rebroadcast)</title>
+      <guid>http://wmbr.org/archive/The_Big_Beat_%28rebroadcast%29____5_3_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3719</itunes:duration>
+      <pubDate>Sun, 04 May 2025 00:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/The_Big_Beat_%28rebroadcast%29____5_3_25_11%3A58_PM.mp3" length="59507775" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Music for Eels</title>
+      <guid>http://wmbr.org/archive/Music_for_Eels____5_3_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
+      <pubDate>Sat, 03 May 2025 23:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Music_for_Eels____5_3_25_10%3A58_PM.mp3" length="61435402" type="audio/mpeg" />
+    </item>
     <item>
       <title>PhD Offense</title>
       <guid>http://wmbr.org/archive/PhD_Offense____5_3_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 03 May 2025 22:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/PhD_Offense____5_3_25_9%3A58_PM.mp3" length="23420600" type="audio/mpeg" />
+      <enclosure url="http://wmbr.org/archive/PhD_Offense____5_3_25_9%3A58_PM.mp3" length="61444180" type="audio/mpeg" />
     </item>
     <item>
       <title>Calling the Cranes</title>
       <guid>http://wmbr.org/archive/Calling_the_Cranes____5_3_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 03 May 2025 21:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Calling_the_Cranes____5_3_25_8%3A58_PM.mp3" length="61454400" type="audio/mpeg" />
+      <enclosure url="http://wmbr.org/archive/Calling_the_Cranes____5_3_25_8%3A58_PM.mp3" length="61454210" type="audio/mpeg" />
     </item>
     <item>
       <title>Backpacks and Magazines</title>
       <guid>http://wmbr.org/archive/Backpacks_and_Magazines____5_3_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Sat, 03 May 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Backpacks_and_Magazines____5_3_25_7%3A58_PM.mp3" length="61457972" type="audio/mpeg" />
     </item>
     <item>
       <title>James Dean Death Car Experience</title>
       <guid>http://wmbr.org/archive/James_Dean_Death_Car_Experience____5_3_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Sat, 03 May 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/James_Dean_Death_Car_Experience____5_3_25_5%3A58_PM.mp3" length="119072392" type="audio/mpeg" />
     </item>
     <item>
       <title>Aural Fixation</title>
       <guid>http://wmbr.org/archive/Aural_Fixation____5_3_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Sat, 03 May 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Aural_Fixation____5_3_25_3%3A58_PM.mp3" length="119059853" type="audio/mpeg" />
     </item>
     <item>
       <title>King Ghidorah</title>
       <guid>http://wmbr.org/archive/King_Ghidorah____5_3_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7437</itunes:duration>
       <pubDate>Sat, 03 May 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/King_Ghidorah____5_3_25_1%3A58_PM.mp3" length="119003847" type="audio/mpeg" />
     </item>
     <item>
       <title>The Hot Rat Sessions</title>
       <guid>http://wmbr.org/archive/The_Hot_Rat_Sessions____5_3_25_12%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Sat, 03 May 2025 13:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Hot_Rat_Sessions____5_3_25_12%3A58_PM.mp3" length="61410325" type="audio/mpeg" />
     </item>
     <item>
       <title>Bass Case</title>
       <guid>http://wmbr.org/archive/Bass_Case____5_3_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sat, 03 May 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Bass_Case____5_3_25_11%3A58_AM.mp3" length="61427461" type="audio/mpeg" />
     </item>
     <item>
       <title>Backwoods</title>
       <guid>http://wmbr.org/archive/Backwoods____5_3_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Sat, 03 May 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Backwoods____5_3_25_9%3A58_AM.mp3" length="119031850" type="audio/mpeg" />
     </item>
     <item>
       <title>Nebulosity</title>
       <guid>http://wmbr.org/archive/Nebulosity____5_3_25_8%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 03 May 2025 09:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Nebulosity____5_3_25_8%3A58_AM.mp3" length="61440000" type="audio/mpeg" />
     </item>
     <item>
       <title>Sound Principles</title>
       <guid>http://wmbr.org/archive/Sound_Principles____5_3_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 03 May 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sound_Principles____5_3_25_7%3A58_AM.mp3" length="61446687" type="audio/mpeg" />
     </item>
     <item>
       <title>88 Rewound</title>
       <guid>http://wmbr.org/archive/88_Rewound____5_3_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Sat, 03 May 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/88_Rewound____5_3_25_5%3A58_AM.mp3" length="119062360" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____5_3_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Sat, 03 May 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____5_3_25_3%3A58_AM.mp3" length="119023910" type="audio/mpeg" />
     </item>
     <item>
       <title>Mindblown (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Mindblown_%28rebroadcast%29____5_3_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Sat, 03 May 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mindblown_%28rebroadcast%29____5_3_25_2%3A58_AM.mp3" length="61422863" type="audio/mpeg" />
     </item>
     <item>
       <title>Art &amp; Freight (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Art_%26_Freight_%28rebroadcast%29____5_3_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3837</itunes:duration>
       <pubDate>Sat, 03 May 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Art_%26_Freight_%28rebroadcast%29____5_3_25_1%3A58_AM.mp3" length="61404891" type="audio/mpeg" />
     </item>
     <item>
       <title>Sewersounds</title>
       <guid>http://wmbr.org/archive/Sewersounds____5_3_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sat, 03 May 2025 01:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sewersounds____5_3_25_12%3A58_AM.mp3" length="61427462" type="audio/mpeg" />
     </item>
     <item>
       <title>Mayan Mix Masters</title>
       <guid>http://wmbr.org/archive/Mayan_Mix_Masters____5_2_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sat, 03 May 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mayan_Mix_Masters____5_2_25_11%3A58_PM.mp3" length="61438328" type="audio/mpeg" />
     </item>
     <item>
       <title>This Musical Life</title>
       <guid>http://wmbr.org/archive/This_Musical_Life____5_2_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Fri, 02 May 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/This_Musical_Life____5_2_25_10%3A58_PM.mp3" length="61447106" type="audio/mpeg" />
     </item>
     <item>
       <title>what just happened</title>
       <guid>http://wmbr.org/archive/what_just_happened____5_2_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Fri, 02 May 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/what_just_happened____5_2_25_9%3A58_PM.mp3" length="61441672" type="audio/mpeg" />
     </item>
     <item>
       <title>Zero Monthly Listeners</title>
       <guid>http://wmbr.org/archive/Zero_Monthly_Listeners____5_2_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Fri, 02 May 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Zero_Monthly_Listeners____5_2_25_8%3A58_PM.mp3" length="61455046" type="audio/mpeg" />
     </item>
     <item>
       <title>Bleeps + Bloops</title>
       <guid>http://wmbr.org/archive/Bleeps_%2B_Bloops____5_2_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Fri, 02 May 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Bleeps_%2B_Bloops____5_2_25_7%3A58_PM.mp3" length="61469675" type="audio/mpeg" />
     </item>
     <item>
       <title>The Big Beat</title>
       <guid>http://wmbr.org/archive/The_Big_Beat____5_2_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Fri, 02 May 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Big_Beat____5_2_25_6%3A58_PM.mp3" length="61470511" type="audio/mpeg" />
     </item>
     <item>
       <title>Mindblown</title>
       <guid>http://wmbr.org/archive/Mindblown____5_2_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Fri, 02 May 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mindblown____5_2_25_5%3A58_PM.mp3" length="61474691" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____5_2_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2042</itunes:duration>
       <pubDate>Fri, 02 May 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____5_2_25_5%3A28_PM.mp3" length="32674377" type="audio/mpeg" />
     </item>
     <item>
       <title>Gorilla Got Me</title>
       <guid>http://wmbr.org/archive/Gorilla_Got_Me____5_2_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5638</itunes:duration>
       <pubDate>Fri, 02 May 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Gorilla_Got_Me____5_2_25_3%3A58_PM.mp3" length="90210221" type="audio/mpeg" />
     </item>
     <item>
       <title>Coffeetime</title>
       <guid>http://wmbr.org/archive/Coffeetime____5_2_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Fri, 02 May 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Coffeetime____5_2_25_1%3A58_PM.mp3" length="119019311" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____5_2_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Fri, 02 May 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____5_2_25_11%3A58_AM.mp3" length="119029342" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____5_2_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Fri, 02 May 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____5_2_25_9%3A58_AM.mp3" length="119045642" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____5_2_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Fri, 02 May 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____5_2_25_7%3A58_AM.mp3" length="119064032" type="audio/mpeg" />
     </item>
     <item>
       <title>The Cosmic Deadbeat Radio Hour</title>
       <guid>http://wmbr.org/archive/The_Cosmic_Deadbeat_Radio_Hour____5_2_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Fri, 02 May 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Cosmic_Deadbeat_Radio_Hour____5_2_25_6%3A58_AM.mp3" length="61465078" type="audio/mpeg" />
     </item>
     <item>
       <title>Second Fiddle</title>
       <guid>http://wmbr.org/archive/Second_Fiddle____5_2_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11043</itunes:duration>
       <pubDate>Fri, 02 May 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Second_Fiddle____5_2_25_3%3A58_AM.mp3" length="176691409" type="audio/mpeg" />
     </item>
     <item>
       <title>Connect the Tracks (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Connect_the_Tracks_%28rebroadcast%29____5_2_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Fri, 02 May 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Connect_the_Tracks_%28rebroadcast%29____5_2_25_2%3A58_AM.mp3" length="61487648" type="audio/mpeg" />
     </item>
     <item>
       <title>Let's Talk About Sax (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Let%27s_Talk_About_Sax_%28rebroadcast%29____5_2_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Fri, 02 May 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Let%27s_Talk_About_Sax_%28rebroadcast%29____5_2_25_1%3A58_AM.mp3" length="61483467" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____5_1_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Fri, 02 May 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____5_1_25_11%3A58_PM.mp3" length="119023490" type="audio/mpeg" />
     </item>
     <item>
       <title>The ...</title>
       <guid>http://wmbr.org/archive/The_...____5_1_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Thu, 01 May 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_...____5_1_25_10%3A58_PM.mp3" length="61425790" type="audio/mpeg" />
     </item>
     <item>
       <title>Sewersounds</title>
       <guid>http://wmbr.org/archive/Sewersounds____5_1_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Thu, 01 May 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sewersounds____5_1_25_9%3A58_PM.mp3" length="61432894" type="audio/mpeg" />
     </item>
     <item>
       <title>Nonstop Ecstatic Screaming</title>
       <guid>http://wmbr.org/archive/Nonstop_Ecstatic_Screaming____5_1_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Thu, 01 May 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Nonstop_Ecstatic_Screaming____5_1_25_7%3A58_PM.mp3" length="119046896" type="audio/mpeg" />
     </item>
     <item>
       <title>Radio Ninja</title>
       <guid>http://wmbr.org/archive/Radio_Ninja____5_1_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Thu, 01 May 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Radio_Ninja____5_1_25_5%3A58_PM.mp3" length="119066540" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____5_1_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2042</itunes:duration>
       <pubDate>Thu, 01 May 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____5_1_25_5%3A28_PM.mp3" length="32675213" type="audio/mpeg" />
     </item>
     <item>
       <title>Jazz Volcano</title>
       <guid>http://wmbr.org/archive/Jazz_Volcano____5_1_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5642</itunes:duration>
       <pubDate>Thu, 01 May 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Jazz_Volcano____5_1_25_3%3A58_PM.mp3" length="90277512" type="audio/mpeg" />
     </item>
     <item>
       <title>Troubadour</title>
       <guid>http://wmbr.org/archive/Troubadour____5_1_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Thu, 01 May 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Troubadour____5_1_25_1%3A58_PM.mp3" length="119013877" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____5_1_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Thu, 01 May 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____5_1_25_11%3A58_AM.mp3" length="119023491" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____5_1_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Thu, 01 May 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____5_1_25_9%3A58_AM.mp3" length="119044389" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____5_1_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Thu, 01 May 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____5_1_25_7%3A58_AM.mp3" length="119043135" type="audio/mpeg" />
     </item>
     <item>
       <title>The Pontoon Palace</title>
       <guid>http://wmbr.org/archive/The_Pontoon_Palace____5_1_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Thu, 01 May 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Pontoon_Palace____5_1_25_5%3A58_AM.mp3" length="119064451" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____5_1_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Thu, 01 May 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____5_1_25_3%3A58_AM.mp3" length="119074482" type="audio/mpeg" />
     </item>
     <item>
       <title>Box of Maniacs (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Box_of_Maniacs_%28rebroadcast%29____5_1_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Thu, 01 May 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Box_of_Maniacs_%28rebroadcast%29____5_1_25_2%3A58_AM.mp3" length="61486393" type="audio/mpeg" />
     </item>
     <item>
       <title>Brain Waves (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Brain_Waves_%28rebroadcast%29____5_1_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Thu, 01 May 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Brain_Waves_%28rebroadcast%29____5_1_25_1%3A58_AM.mp3" length="61483050" type="audio/mpeg" />
     </item>
     <item>
       <title>Community Conduit</title>
       <guid>http://wmbr.org/archive/Community_Conduit____4_30_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Thu, 01 May 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Community_Conduit____4_30_25_11%3A58_PM.mp3" length="119016385" type="audio/mpeg" />
     </item>
     <item>
       <title>Vitamin Sneve</title>
       <guid>http://wmbr.org/archive/Vitamin_Sneve____4_30_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Vitamin_Sneve____4_30_25_10%3A58_PM.mp3" length="61423281" type="audio/mpeg" />
     </item>
     <item>
       <title>The Froot Loops</title>
       <guid>http://wmbr.org/archive/The_Froot_Loops____4_30_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Froot_Loops____4_30_25_9%3A58_PM.mp3" length="61431641" type="audio/mpeg" />
     </item>
     <item>
       <title>Let's Talk About Sax</title>
       <guid>http://wmbr.org/archive/Let%27s_Talk_About_Sax____4_30_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Let%27s_Talk_About_Sax____4_30_25_8%3A58_PM.mp3" length="61442926" type="audio/mpeg" />
     </item>
     <item>
       <title>Vibe Killers</title>
       <guid>http://wmbr.org/archive/Vibe_Killers____4_30_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Vibe_Killers____4_30_25_7%3A58_PM.mp3" length="61442925" type="audio/mpeg" />
     </item>
     <item>
       <title>Lentil and Stone</title>
       <guid>http://wmbr.org/archive/Lentil_and_Stone____4_30_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lentil_and_Stone____4_30_25_6%3A58_PM.mp3" length="61445433" type="audio/mpeg" />
     </item>
     <item>
       <title>Sublimation Station</title>
       <guid>http://wmbr.org/archive/Sublimation_Station____4_30_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sublimation_Station____4_30_25_5%3A58_PM.mp3" length="61459644" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_30_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2041</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_30_25_5%3A28_PM.mp3" length="32664346" type="audio/mpeg" />
     </item>
     <item>
       <title>In the Margin of the Other</title>
       <guid>http://wmbr.org/archive/In_the_Margin_of_the_Other____4_30_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5642</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/In_the_Margin_of_the_Other____4_30_25_3%3A58_PM.mp3" length="90274168" type="audio/mpeg" />
     </item>
     <item>
       <title>Space Is Deep</title>
       <guid>http://wmbr.org/archive/Space_Is_Deep____4_30_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Space_Is_Deep____4_30_25_1%3A58_PM.mp3" length="119087857" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_30_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_30_25_11%3A58_AM.mp3" length="119020565" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_30_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_30_25_9%3A58_AM.mp3" length="119022237" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_30_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_30_25_7%3A58_AM.mp3" length="119047315" type="audio/mpeg" />
     </item>
     <item>
       <title>Morning Wood</title>
       <guid>http://wmbr.org/archive/Morning_Wood____4_30_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Morning_Wood____4_30_25_6%3A58_AM.mp3" length="61455464" type="audio/mpeg" />
     </item>
     <item>
       <title>French Toast</title>
       <guid>http://wmbr.org/archive/French_Toast____4_30_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/French_Toast____4_30_25_5%3A58_AM.mp3" length="61455883" type="audio/mpeg" />
     </item>
     <item>
       <title>For Your Pleasure (rebroadcast)</title>
       <guid>http://wmbr.org/archive/For_Your_Pleasure_%28rebroadcast%29____4_30_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/For_Your_Pleasure_%28rebroadcast%29____4_30_25_3%3A58_AM.mp3" length="119043970" type="audio/mpeg" />
     </item>
     <item>
       <title>Music for Eels (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Music_for_Eels_%28rebroadcast%29____4_30_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Music_for_Eels_%28rebroadcast%29____4_30_25_2%3A58_AM.mp3" length="61440000" type="audio/mpeg" />
     </item>
     <item>
       <title>Backpacks and Magazines (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Backpacks_and_Magazines_%28rebroadcast%29____4_30_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Backpacks_and_Magazines_%28rebroadcast%29____4_30_25_1%3A58_AM.mp3" length="61437074" type="audio/mpeg" />
     </item>
     <item>
       <title>Worldbeat (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Worldbeat_%28rebroadcast%29____4_29_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Wed, 30 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Worldbeat_%28rebroadcast%29____4_29_25_11%3A58_PM.mp3" length="119033522" type="audio/mpeg" />
     </item>
     <item>
       <title>Brain Waves</title>
       <guid>http://wmbr.org/archive/Brain_Waves____4_29_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Brain_Waves____4_29_25_10%3A58_PM.mp3" length="61458390" type="audio/mpeg" />
     </item>
     <item>
       <title>Sad Boys Soundbox</title>
       <guid>http://wmbr.org/archive/Sad_Boys_Soundbox____4_29_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sad_Boys_Soundbox____4_29_25_9%3A58_PM.mp3" length="61466332" type="audio/mpeg" />
     </item>
     <item>
       <title>Post-tentious</title>
       <guid>http://wmbr.org/archive/Post-tentious____4_29_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Post-tentious____4_29_25_8%3A58_PM.mp3" length="61472183" type="audio/mpeg" />
     </item>
     <item>
       <title>Terminal Swirlie</title>
       <guid>http://wmbr.org/archive/Terminal_Swirlie____4_29_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Terminal_Swirlie____4_29_25_7%3A58_PM.mp3" length="61478870" type="audio/mpeg" />
     </item>
     <item>
       <title>Codependent</title>
       <guid>http://wmbr.org/archive/Codependent____4_29_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3837</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Codependent____4_29_25_6%3A58_PM.mp3" length="61405309" type="audio/mpeg" />
     </item>
     <item>
       <title>DJ Awesome and the Wonderfriends</title>
       <guid>http://wmbr.org/archive/DJ_Awesome_and_the_Wonderfriends____4_29_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/DJ_Awesome_and_the_Wonderfriends____4_29_25_5%3A58_PM.mp3" length="61423282" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_29_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2038</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_29_25_5%3A28_PM.mp3" length="32622132" type="audio/mpeg" />
     </item>
     <item>
       <title>The Jazz Train</title>
       <guid>http://wmbr.org/archive/The_Jazz_Train____4_29_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5639</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Jazz_Train____4_29_25_3%3A58_PM.mp3" length="90231118" type="audio/mpeg" />
     </item>
     <item>
       <title>The New Edge</title>
       <guid>http://wmbr.org/archive/The_New_Edge____4_29_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_New_Edge____4_29_25_1%3A58_PM.mp3" length="119043134" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_29_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_29_25_11%3A58_AM.mp3" length="119048568" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_29_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_29_25_9%3A58_AM.mp3" length="119065287" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_29_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>12011</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_29_25_7%3A58_AM.mp3" length="192187267" type="audio/mpeg" />
     </item>
     <item>
       <title>Mama Cass' House</title>
       <guid>http://wmbr.org/archive/Mama_Cass%27_House____4_29_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mama_Cass%27_House____4_29_25_6%3A58_AM.mp3" length="61477617" type="audio/mpeg" />
     </item>
     <item>
       <title>If 6 Was 9</title>
       <guid>http://wmbr.org/archive/If_6_Was_9____4_29_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11043</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/If_6_Was_9____4_29_25_3%3A58_AM.mp3" length="176688064" type="audio/mpeg" />
     </item>
     <item>
       <title>King Ghidorah (rebroadcast)</title>
       <guid>http://wmbr.org/archive/King_Ghidorah_%28rebroadcast%29____4_29_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/King_Ghidorah_%28rebroadcast%29____4_29_25_1%3A58_AM.mp3" length="119076572" type="audio/mpeg" />
     </item>
     <item>
       <title>Sound Principles (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Sound_Principles_%28rebroadcast%29____4_29_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3837</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 01:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sound_Principles_%28rebroadcast%29____4_29_25_12%3A58_AM.mp3" length="61395696" type="audio/mpeg" />
     </item>
     <item>
       <title>Astral Signal</title>
       <guid>http://wmbr.org/archive/Astral_Signal____4_28_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Tue, 29 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Astral_Signal____4_28_25_11%3A58_PM.mp3" length="61420356" type="audio/mpeg" />
     </item>
     <item>
       <title>Why Is It Lowkey Monday</title>
       <guid>http://wmbr.org/archive/Why_Is_It_Lowkey_Monday____4_28_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Why_Is_It_Lowkey_Monday____4_28_25_10%3A58_PM.mp3" length="61423281" type="audio/mpeg" />
     </item>
     <item>
       <title>The SurreaList</title>
       <guid>http://wmbr.org/archive/The_SurreaList____4_28_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_SurreaList____4_28_25_9%3A58_PM.mp3" length="61431641" type="audio/mpeg" />
     </item>
     <item>
       <title>Bats in the Belfry</title>
       <guid>http://wmbr.org/archive/Bats_in_the_Belfry____4_28_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Bats_in_the_Belfry____4_28_25_7%3A58_PM.mp3" length="119034357" type="audio/mpeg" />
     </item>
     <item>
       <title>Background Music</title>
       <guid>http://wmbr.org/archive/Background_Music____4_28_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Background_Music____4_28_25_6%3A58_PM.mp3" length="61458390" type="audio/mpeg" />
     </item>
     <item>
       <title>Box of Maniacs</title>
       <guid>http://wmbr.org/archive/Box_of_Maniacs____4_28_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Box_of_Maniacs____4_28_25_5%3A58_PM.mp3" length="61457972" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_28_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2040</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_28_25_5%3A28_PM.mp3" length="32654733" type="audio/mpeg" />
     </item>
     <item>
       <title>Not Brahms and Liszt</title>
       <guid>http://wmbr.org/archive/Not_Brahms_and_Liszt____4_28_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5642</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Not_Brahms_and_Liszt____4_28_25_3%3A58_PM.mp3" length="90273332" type="audio/mpeg" />
     </item>
     <item>
       <title>Research &amp; Development</title>
       <guid>http://wmbr.org/archive/Research_%26_Development____4_28_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Research_%26_Development____4_28_25_1%3A58_PM.mp3" length="119080751" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_28_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_28_25_11%3A58_AM.mp3" length="119012206" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_28_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_28_25_9%3A58_AM.mp3" length="119023491" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_28_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_28_25_7%3A58_AM.mp3" length="119045643" type="audio/mpeg" />
     </item>
     <item>
       <title>Connect the Tracks</title>
       <guid>http://wmbr.org/archive/Connect_the_Tracks____4_28_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Connect_the_Tracks____4_28_25_6%3A58_AM.mp3" length="61450031" type="audio/mpeg" />
     </item>
     <item>
       <title>Stormy Weather</title>
       <guid>http://wmbr.org/archive/Stormy_Weather____4_28_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Stormy_Weather____4_28_25_5%3A58_AM.mp3" length="61458390" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____4_28_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____4_28_25_3%3A58_AM.mp3" length="119070720" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____4_28_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____4_28_25_1%3A58_AM.mp3" length="119013459" type="audio/mpeg" />
     </item>
     <item>
       <title>Mindblown (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Mindblown_%28rebroadcast%29____4_28_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 01:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mindblown_%28rebroadcast%29____4_28_25_12%3A58_AM.mp3" length="61411579" type="audio/mpeg" />
     </item>
     <item>
       <title>Sparks &amp; Embers</title>
       <guid>http://wmbr.org/archive/Sparks_%26_Embers____4_27_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Mon, 28 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sparks_%26_Embers____4_27_25_11%3A58_PM.mp3" length="61425789" type="audio/mpeg" />
     </item>
     <item>
       <title>For Your Pleasure</title>
       <guid>http://wmbr.org/archive/For_Your_Pleasure____4_27_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/For_Your_Pleasure____4_27_25_9%3A58_PM.mp3" length="119038955" type="audio/mpeg" />
     </item>
     <item>
       <title>Tea Time Radio</title>
       <guid>http://wmbr.org/archive/Tea_Time_Radio____4_27_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Tea_Time_Radio____4_27_25_8%3A58_PM.mp3" length="61440000" type="audio/mpeg" />
     </item>
     <item>
       <title>Strolls down the 'Splanade</title>
       <guid>http://wmbr.org/archive/Strolls_down_the_%27Splanade____4_27_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Strolls_down_the_%27Splanade____4_27_25_7%3A58_PM.mp3" length="61444180" type="audio/mpeg" />
     </item>
     <item>
       <title>Porcelain Cow</title>
       <guid>http://wmbr.org/archive/Porcelain_Cow____4_27_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Porcelain_Cow____4_27_25_6%3A58_PM.mp3" length="61445852" type="audio/mpeg" />
     </item>
     <item>
       <title>Midwest Pizzeria</title>
       <guid>http://wmbr.org/archive/Midwest_Pizzeria____4_27_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____4_27_25_5%3A58_PM.mp3" length="61468003" type="audio/mpeg" />
     </item>
     <item>
       <title>Worldbeat</title>
       <guid>http://wmbr.org/archive/Worldbeat____4_27_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Worldbeat____4_27_25_3%3A58_PM.mp3" length="119055673" type="audio/mpeg" />
     </item>
     <item>
       <title>Form and Void</title>
       <guid>http://wmbr.org/archive/Form_and_Void____4_27_25_2%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 15:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Form_and_Void____4_27_25_2%3A58_PM.mp3" length="61483050" type="audio/mpeg" />
     </item>
     <item>
       <title>Band Theory</title>
       <guid>http://wmbr.org/archive/Band_Theory____4_27_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3843</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Band_Theory____4_27_25_1%3A58_PM.mp3" length="61494335" type="audio/mpeg" />
     </item>
     <item>
       <title>Subject to Change</title>
       <guid>http://wmbr.org/archive/Subject_to_Change____4_27_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Subject_to_Change____4_27_25_11%3A58_AM.mp3" length="119010952" type="audio/mpeg" />
     </item>
     <item>
       <title>Art &amp; Freight</title>
       <guid>http://wmbr.org/archive/Art_%26_Freight____4_27_25_10%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 11:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Art_%26_Freight____4_27_25_10%3A58_AM.mp3" length="61432895" type="audio/mpeg" />
     </item>
     <item>
       <title>Sound and Fury</title>
       <guid>http://wmbr.org/archive/Sound_and_Fury____4_27_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sound_and_Fury____4_27_25_9%3A58_AM.mp3" length="61432895" type="audio/mpeg" />
     </item>
     <item>
       <title>Haiti Focus</title>
       <guid>http://wmbr.org/archive/Haiti_Focus____4_27_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Haiti_Focus____4_27_25_7%3A58_AM.mp3" length="119040209" type="audio/mpeg" />
     </item>
     <item>
       <title>Compas sur FM</title>
       <guid>http://wmbr.org/archive/Compas_sur_FM____4_27_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Compas_sur_FM____4_27_25_5%3A58_AM.mp3" length="119055673" type="audio/mpeg" />
     </item>
     <item>
       <title>Radio Ninja (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Radio_Ninja_%28rebroadcast%29____4_27_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Radio_Ninja_%28rebroadcast%29____4_27_25_3%3A58_AM.mp3" length="119070720" type="audio/mpeg" />
     </item>
     <item>
       <title>The Pontoon Palace (rebroadcast)</title>
       <guid>http://wmbr.org/archive/The_Pontoon_Palace_%28rebroadcast%29____4_27_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Pontoon_Palace_%28rebroadcast%29____4_27_25_1%3A58_AM.mp3" length="119084930" type="audio/mpeg" />
     </item>
     <item>
       <title>Calling the Cranes (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Calling_the_Cranes_%28rebroadcast%29____4_27_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3843</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 01:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Calling_the_Cranes_%28rebroadcast%29____4_27_25_12%3A58_AM.mp3" length="61494335" type="audio/mpeg" />
     </item>
     <item>
       <title>Lunie Tunes</title>
       <guid>http://wmbr.org/archive/Lunie_Tunes____4_26_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3837</itunes:duration>
       <pubDate>Sun, 27 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lunie_Tunes____4_26_25_11%3A58_PM.mp3" length="61407817" type="audio/mpeg" />
     </item>
     <item>
       <title>Music for Eels</title>
       <guid>http://wmbr.org/archive/Music_for_Eels____4_26_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Music_for_Eels____4_26_25_10%3A58_PM.mp3" length="61422028" type="audio/mpeg" />
     </item>
     <item>
       <title>The Intergalactic Witching Hour with Crood &gt;Boi&gt; and Lorinda</title>
       <guid>http://wmbr.org/archive/The_Intergalactic_Witching_Hour_with_Crood_%3EBoi%3E_and_Lorinda____4_26_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Intergalactic_Witching_Hour_with_Crood_%3EBoi%3E_and_Lorinda____4_26_25_9%3A58_PM.mp3" length="61423282" type="audio/mpeg" />
     </item>
     <item>
       <title>Calling the Cranes</title>
       <guid>http://wmbr.org/archive/Calling_the_Cranes____4_26_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Calling_the_Cranes____4_26_25_8%3A58_PM.mp3" length="61441253" type="audio/mpeg" />
     </item>
     <item>
       <title>Backpacks and Magazines</title>
       <guid>http://wmbr.org/archive/Backpacks_and_Magazines____4_26_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Backpacks_and_Magazines____4_26_25_7%3A58_PM.mp3" length="61437074" type="audio/mpeg" />
     </item>
     <item>
       <title>James Dean Death Car Experience</title>
       <guid>http://wmbr.org/archive/James_Dean_Death_Car_Experience____4_26_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/James_Dean_Death_Car_Experience____4_26_25_5%3A58_PM.mp3" length="119056927" type="audio/mpeg" />
     </item>
     <item>
       <title>Aural Fixation</title>
       <guid>http://wmbr.org/archive/Aural_Fixation____4_26_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Aural_Fixation____4_26_25_3%3A58_PM.mp3" length="119068212" type="audio/mpeg" />
     </item>
     <item>
       <title>King Ghidorah</title>
       <guid>http://wmbr.org/archive/King_Ghidorah____4_26_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/King_Ghidorah____4_26_25_1%3A58_PM.mp3" length="119077825" type="audio/mpeg" />
     </item>
     <item>
       <title>The Hot Rat Sessions</title>
       <guid>http://wmbr.org/archive/The_Hot_Rat_Sessions____4_26_25_12%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3837</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 13:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Hot_Rat_Sessions____4_26_25_12%3A58_PM.mp3" length="61392352" type="audio/mpeg" />
     </item>
     <item>
       <title>Bass Case</title>
       <guid>http://wmbr.org/archive/Bass_Case____4_26_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Bass_Case____4_26_25_11%3A58_AM.mp3" length="61427461" type="audio/mpeg" />
     </item>
     <item>
       <title>Backwoods</title>
       <guid>http://wmbr.org/archive/Backwoods____4_26_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Backwoods____4_26_25_9%3A58_AM.mp3" length="119036029" type="audio/mpeg" />
     </item>
     <item>
       <title>Nebulosity</title>
       <guid>http://wmbr.org/archive/Nebulosity____4_26_25_8%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 09:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Nebulosity____4_26_25_8%3A58_AM.mp3" length="61446687" type="audio/mpeg" />
     </item>
     <item>
       <title>Sound Principles</title>
       <guid>http://wmbr.org/archive/Sound_Principles____4_26_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sound_Principles____4_26_25_7%3A58_AM.mp3" length="61451285" type="audio/mpeg" />
     </item>
     <item>
       <title>88 Rewound</title>
       <guid>http://wmbr.org/archive/88_Rewound____4_26_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/88_Rewound____4_26_25_5%3A58_AM.mp3" length="119065287" type="audio/mpeg" />
     </item>
     <item>
       <title>Space Is Deep (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Space_Is_Deep_%28rebroadcast%29____4_26_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7437</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Space_Is_Deep_%28rebroadcast%29____4_26_25_3%3A58_AM.mp3" length="118999248" type="audio/mpeg" />
     </item>
     <item>
       <title>Music for Eels (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Music_for_Eels_%28rebroadcast%29____4_26_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Music_for_Eels_%28rebroadcast%29____4_26_25_2%3A58_AM.mp3" length="61422028" type="audio/mpeg" />
     </item>
     <item>
       <title>Midwest Pizzeria (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Midwest_Pizzeria_%28rebroadcast%29____4_26_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria_%28rebroadcast%29____4_26_25_1%3A58_AM.mp3" length="61422028" type="audio/mpeg" />
     </item>
     <item>
       <title>Sonic Mood Ring (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Sonic_Mood_Ring_%28rebroadcast%29____4_26_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 01:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sonic_Mood_Ring_%28rebroadcast%29____4_26_25_12%3A58_AM.mp3" length="61431641" type="audio/mpeg" />
     </item>
     <item>
       <title>Mayan Mix Masters</title>
       <guid>http://wmbr.org/archive/Mayan_Mix_Masters____4_25_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sat, 26 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mayan_Mix_Masters____4_25_25_11%3A58_PM.mp3" length="61440418" type="audio/mpeg" />
     </item>
     <item>
       <title>This Musical Life</title>
       <guid>http://wmbr.org/archive/This_Musical_Life____4_25_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/This_Musical_Life____4_25_25_10%3A58_PM.mp3" length="61429969" type="audio/mpeg" />
     </item>
     <item>
       <title>what just happened</title>
       <guid>http://wmbr.org/archive/what_just_happened____4_25_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/what_just_happened____4_25_25_9%3A58_PM.mp3" length="61458390" type="audio/mpeg" />
     </item>
     <item>
       <title>Zero Monthly Listeners</title>
       <guid>http://wmbr.org/archive/Zero_Monthly_Listeners____4_25_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Zero_Monthly_Listeners____4_25_25_8%3A58_PM.mp3" length="61450449" type="audio/mpeg" />
     </item>
     <item>
       <title>sunnymoon &lt;3</title>
       <guid>http://wmbr.org/archive/sunnymoon_%3C3____4_25_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/sunnymoon_%3C3____4_25_25_7%3A58_PM.mp3" length="61462570" type="audio/mpeg" />
     </item>
     <item>
       <title>The Big Beat</title>
       <guid>http://wmbr.org/archive/The_Big_Beat____4_25_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Big_Beat____4_25_25_6%3A58_PM.mp3" length="61459226" type="audio/mpeg" />
     </item>
     <item>
       <title>Mindblown</title>
       <guid>http://wmbr.org/archive/Mindblown____4_25_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mindblown____4_25_25_5%3A58_PM.mp3" length="61478870" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_25_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2042</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_25_25_5%3A28_PM.mp3" length="32683990" type="audio/mpeg" />
     </item>
     <item>
       <title>Gorilla Got Me</title>
       <guid>http://wmbr.org/archive/Gorilla_Got_Me____4_25_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5643</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Gorilla_Got_Me____4_25_25_3%3A58_PM.mp3" length="90292558" type="audio/mpeg" />
     </item>
     <item>
       <title>Coffeetime</title>
       <guid>http://wmbr.org/archive/Coffeetime____4_25_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Coffeetime____4_25_25_1%3A58_PM.mp3" length="119024744" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_25_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_25_25_11%3A58_AM.mp3" length="119033104" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_25_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_25_25_9%3A58_AM.mp3" length="119018893" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_25_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_25_25_7%3A58_AM.mp3" length="119054002" type="audio/mpeg" />
     </item>
     <item>
       <title>The Cosmic Deadbeat Radio Hour</title>
       <guid>http://wmbr.org/archive/The_Cosmic_Deadbeat_Radio_Hour____4_25_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Cosmic_Deadbeat_Radio_Hour____4_25_25_6%3A58_AM.mp3" length="61449613" type="audio/mpeg" />
     </item>
     <item>
       <title>Second Fiddle</title>
       <guid>http://wmbr.org/archive/Second_Fiddle____4_25_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11042</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Second_Fiddle____4_25_25_3%3A58_AM.mp3" length="176674690" type="audio/mpeg" />
     </item>
     <item>
       <title>Sad Boys Soundbox (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Sad_Boys_Soundbox_%28rebroadcast%29____4_25_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sad_Boys_Soundbox_%28rebroadcast%29____4_25_25_2%3A58_AM.mp3" length="61484722" type="audio/mpeg" />
     </item>
     <item>
       <title>Deep Dive Down (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Deep_Dive_Down_%28rebroadcast%29____4_25_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3843</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Deep_Dive_Down_%28rebroadcast%29____4_25_25_1%3A58_AM.mp3" length="61488902" type="audio/mpeg" />
     </item>
     <item>
       <title>The New Edge (rebroadcast)</title>
       <guid>http://wmbr.org/archive/The_New_Edge_%28rebroadcast%29____4_24_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Fri, 25 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_New_Edge_%28rebroadcast%29____4_24_25_11%3A58_PM.mp3" length="119012206" type="audio/mpeg" />
     </item>
     <item>
       <title>Basement Mixes</title>
       <guid>http://wmbr.org/archive/Basement_Mixes____4_24_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Basement_Mixes____4_24_25_9%3A58_PM.mp3" length="119031850" type="audio/mpeg" />
     </item>
     <item>
       <title>Nonstop Ecstatic Screaming</title>
       <guid>http://wmbr.org/archive/Nonstop_Ecstatic_Screaming____4_24_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Nonstop_Ecstatic_Screaming____4_24_25_7%3A58_PM.mp3" length="119038955" type="audio/mpeg" />
     </item>
     <item>
       <title>Radio Ninja</title>
       <guid>http://wmbr.org/archive/Radio_Ninja____4_24_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Radio_Ninja____4_24_25_5%3A58_PM.mp3" length="119051494" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_24_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2040</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_24_25_5%3A28_PM.mp3" length="32651808" type="audio/mpeg" />
     </item>
     <item>
       <title>Jazz Volcano</title>
       <guid>http://wmbr.org/archive/Jazz_Volcano____4_24_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5641</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Jazz_Volcano____4_24_25_3%3A58_PM.mp3" length="90259957" type="audio/mpeg" />
     </item>
     <item>
       <title>Troubadour</title>
       <guid>http://wmbr.org/archive/Troubadour____4_24_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Troubadour____4_24_25_1%3A58_PM.mp3" length="119078244" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_24_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_24_25_11%3A58_AM.mp3" length="119011788" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_24_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_24_25_9%3A58_AM.mp3" length="119029342" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_24_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_24_25_7%3A58_AM.mp3" length="119026416" type="audio/mpeg" />
     </item>
     <item>
       <title>The Pontoon Palace</title>
       <guid>http://wmbr.org/archive/The_Pontoon_Palace____4_24_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7441</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Pontoon_Palace____4_24_25_5%3A58_AM.mp3" length="119058181" type="audio/mpeg" />
     </item>
     <item>
       <title>Research &amp; Development (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Research_%26_Development_%28rebroadcast%29____4_24_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7437</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Research_%26_Development_%28rebroadcast%29____4_24_25_3%3A58_AM.mp3" length="118997995" type="audio/mpeg" />
     </item>
     <item>
       <title>Backpacks and Magazines (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Backpacks_and_Magazines_%28rebroadcast%29____4_24_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Backpacks_and_Magazines_%28rebroadcast%29____4_24_25_2%3A58_AM.mp3" length="61428715" type="audio/mpeg" />
     </item>
     <item>
       <title>Ceangal Ceilteach (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Ceangal_Ceilteach_%28rebroadcast%29____4_24_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Ceangal_Ceilteach_%28rebroadcast%29____4_24_25_1%3A58_AM.mp3" length="61431641" type="audio/mpeg" />
     </item>
     <item>
       <title>Community Conduit</title>
       <guid>http://wmbr.org/archive/Community_Conduit____4_23_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Thu, 24 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Community_Conduit____4_23_25_11%3A58_PM.mp3" length="119016385" type="audio/mpeg" />
     </item>
     <item>
       <title>Vitamin Sneve</title>
       <guid>http://wmbr.org/archive/Vitamin_Sneve____4_23_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Vitamin_Sneve____4_23_25_10%3A58_PM.mp3" length="61445434" type="audio/mpeg" />
     </item>
     <item>
       <title>The Froot Loops</title>
       <guid>http://wmbr.org/archive/The_Froot_Loops____4_23_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Froot_Loops____4_23_25_9%3A58_PM.mp3" length="61454210" type="audio/mpeg" />
     </item>
     <item>
       <title>Voyage of the Bagel</title>
       <guid>http://wmbr.org/archive/Voyage_of_the_Bagel____4_23_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Voyage_of_the_Bagel____4_23_25_8%3A58_PM.mp3" length="61455464" type="audio/mpeg" />
     </item>
     <item>
       <title>Vibe Killers</title>
       <guid>http://wmbr.org/archive/Vibe_Killers____4_23_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Vibe_Killers____4_23_25_7%3A58_PM.mp3" length="61455465" type="audio/mpeg" />
     </item>
     <item>
       <title>What's Your Weird?</title>
       <guid>http://wmbr.org/archive/What%27s_Your_Weird%3F____4_23_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/What%27s_Your_Weird%3F____4_23_25_6%3A58_PM.mp3" length="61477616" type="audio/mpeg" />
     </item>
     <item>
       <title>Sonic Mood Ring</title>
       <guid>http://wmbr.org/archive/Sonic_Mood_Ring____4_23_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sonic_Mood_Ring____4_23_25_5%3A58_PM.mp3" length="61468003" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_23_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2042</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_23_25_5%3A28_PM.mp3" length="32682318" type="audio/mpeg" />
     </item>
     <item>
       <title>In the Margin of the Other</title>
       <guid>http://wmbr.org/archive/In_the_Margin_of_the_Other____4_23_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5642</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/In_the_Margin_of_the_Other____4_23_25_3%3A58_PM.mp3" length="90277094" type="audio/mpeg" />
     </item>
     <item>
       <title>Space Is Deep</title>
       <guid>http://wmbr.org/archive/Space_Is_Deep____4_23_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Space_Is_Deep____4_23_25_1%3A58_PM.mp3" length="119012206" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_23_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_23_25_11%3A58_AM.mp3" length="119027670" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_23_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_23_25_9%3A58_AM.mp3" length="119044389" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_23_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_23_25_7%3A58_AM.mp3" length="119055674" type="audio/mpeg" />
     </item>
     <item>
       <title>Morning Wood</title>
       <guid>http://wmbr.org/archive/Morning_Wood____4_23_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Morning_Wood____4_23_25_6%3A58_AM.mp3" length="61445433" type="audio/mpeg" />
     </item>
     <item>
       <title>French Toast</title>
       <guid>http://wmbr.org/archive/French_Toast____4_23_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/French_Toast____4_23_25_5%3A58_AM.mp3" length="61470511" type="audio/mpeg" />
     </item>
     <item>
       <title>For Your Pleasure (rebroadcast)</title>
       <guid>http://wmbr.org/archive/For_Your_Pleasure_%28rebroadcast%29____4_23_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7443</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/For_Your_Pleasure_%28rebroadcast%29____4_23_25_3%3A58_AM.mp3" length="119091617" type="audio/mpeg" />
     </item>
     <item>
       <title>Art &amp; Freight (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Art_%26_Freight_%28rebroadcast%29____4_23_25_2%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3843</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 03:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Art_%26_Freight_%28rebroadcast%29____4_23_25_2%3A58_AM.mp3" length="61493499" type="audio/mpeg" />
     </item>
     <item>
       <title>PhD Offense (rebroadcast)</title>
       <guid>http://wmbr.org/archive/PhD_Offense_%28rebroadcast%29____4_23_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3837</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/PhD_Offense_%28rebroadcast%29____4_23_25_1%3A58_AM.mp3" length="61407817" type="audio/mpeg" />
     </item>
     <item>
       <title>From Bindu to Ojas (rebroadcast)</title>
       <guid>http://wmbr.org/archive/From_Bindu_to_Ojas_%28rebroadcast%29____4_22_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Wed, 23 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/From_Bindu_to_Ojas_%28rebroadcast%29____4_22_25_11%3A58_PM.mp3" length="119017639" type="audio/mpeg" />
     </item>
     <item>
       <title>Pipeline!</title>
       <guid>http://wmbr.org/archive/Pipeline%21____4_22_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Pipeline%21____4_22_25_10%3A58_PM.mp3" length="61431641" type="audio/mpeg" />
     </item>
     <item>
       <title>Sad Boys Soundbox</title>
       <guid>http://wmbr.org/archive/Sad_Boys_Soundbox____4_22_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sad_Boys_Soundbox____4_22_25_9%3A58_PM.mp3" length="61447106" type="audio/mpeg" />
     </item>
     <item>
       <title>Post-tentious</title>
       <guid>http://wmbr.org/archive/Post-tentious____4_22_25_8%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 21:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Post-tentious____4_22_25_8%3A58_PM.mp3" length="61445433" type="audio/mpeg" />
     </item>
     <item>
       <title>Terminal Swirlie</title>
       <guid>http://wmbr.org/archive/Terminal_Swirlie____4_22_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Terminal_Swirlie____4_22_25_7%3A58_PM.mp3" length="61452539" type="audio/mpeg" />
     </item>
     <item>
       <title>Deep Dive Down</title>
       <guid>http://wmbr.org/archive/Deep_Dive_Down____4_22_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Deep_Dive_Down____4_22_25_6%3A58_PM.mp3" length="61461316" type="audio/mpeg" />
     </item>
     <item>
       <title>DJ Awesome and the Wonderfriends</title>
       <guid>http://wmbr.org/archive/DJ_Awesome_and_the_Wonderfriends____4_22_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3842</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/DJ_Awesome_and_the_Wonderfriends____4_22_25_5%3A58_PM.mp3" length="61473437" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_22_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2042</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_22_25_5%3A28_PM.mp3" length="32673959" type="audio/mpeg" />
     </item>
     <item>
       <title>The Jazz Train</title>
       <guid>http://wmbr.org/archive/The_Jazz_Train____4_22_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5642</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_Jazz_Train____4_22_25_3%3A58_PM.mp3" length="90277094" type="audio/mpeg" />
     </item>
     <item>
       <title>The New Edge</title>
       <guid>http://wmbr.org/archive/The_New_Edge____4_22_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_New_Edge____4_22_25_1%3A58_PM.mp3" length="119010534" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_22_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_22_25_11%3A58_AM.mp3" length="119023909" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_22_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_22_25_9%3A58_AM.mp3" length="119047314" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_22_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>12151</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_22_25_7%3A58_AM.mp3" length="194420655" type="audio/mpeg" />
     </item>
     <item>
       <title>Mama Cass' House</title>
       <guid>http://wmbr.org/archive/Mama_Cass%27_House____4_22_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Mama_Cass%27_House____4_22_25_6%3A58_AM.mp3" length="61466750" type="audio/mpeg" />
     </item>
     <item>
       <title>If 6 Was 9</title>
       <guid>http://wmbr.org/archive/If_6_Was_9____4_22_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11042</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/If_6_Was_9____4_22_25_3%3A58_AM.mp3" length="176686393" type="audio/mpeg" />
     </item>
     <item>
       <title>88 Rewound (rebroadcast)</title>
       <guid>http://wmbr.org/archive/88_Rewound_%28rebroadcast%29____4_22_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/88_Rewound_%28rebroadcast%29____4_22_25_1%3A58_AM.mp3" length="119072392" type="audio/mpeg" />
     </item>
     <item>
       <title>Sound Principles (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Sound_Principles_%28rebroadcast%29____4_22_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3843</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 01:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sound_Principles_%28rebroadcast%29____4_22_25_12%3A58_AM.mp3" length="61489319" type="audio/mpeg" />
     </item>
     <item>
       <title>Astral Signal</title>
       <guid>http://wmbr.org/archive/Astral_Signal____4_21_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3837</itunes:duration>
       <pubDate>Tue, 22 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Astral_Signal____4_21_25_11%3A58_PM.mp3" length="61406146" type="audio/mpeg" />
     </item>
     <item>
       <title>Why Is It Lowkey Monday</title>
       <guid>http://wmbr.org/archive/Why_Is_It_Lowkey_Monday____4_21_25_10%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 23:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Why_Is_It_Lowkey_Monday____4_21_25_10%3A58_PM.mp3" length="61420356" type="audio/mpeg" />
     </item>
     <item>
       <title>The SurreaList</title>
       <guid>http://wmbr.org/archive/The_SurreaList____4_21_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/The_SurreaList____4_21_25_9%3A58_PM.mp3" length="61437074" type="audio/mpeg" />
     </item>
     <item>
       <title>Bats in the Belfry</title>
       <guid>http://wmbr.org/archive/Bats_in_the_Belfry____4_21_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Bats_in_the_Belfry____4_21_25_7%3A58_PM.mp3" length="119037283" type="audio/mpeg" />
     </item>
     <item>
       <title>Background Music</title>
       <guid>http://wmbr.org/archive/Background_Music____4_21_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Background_Music____4_21_25_6%3A58_PM.mp3" length="61448359" type="audio/mpeg" />
     </item>
     <item>
       <title>Sometime After 7</title>
       <guid>http://wmbr.org/archive/Sometime_After_7____4_21_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sometime_After_7____4_21_25_5%3A58_PM.mp3" length="61459644" type="audio/mpeg" />
     </item>
     <item>
       <title>WMBR Nightly News</title>
       <guid>http://wmbr.org/archive/WMBR_Nightly_News____4_21_25_5%3A28_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2040</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 17:30:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/WMBR_Nightly_News____4_21_25_5%3A28_PM.mp3" length="32653061" type="audio/mpeg" />
     </item>
     <item>
       <title>Not Brahms and Liszt</title>
       <guid>http://wmbr.org/archive/Not_Brahms_and_Liszt____4_21_25_3%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>5641</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 16:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Not_Brahms_and_Liszt____4_21_25_3%3A58_PM.mp3" length="90270407" type="audio/mpeg" />
     </item>
     <item>
       <title>Research &amp; Development</title>
       <guid>http://wmbr.org/archive/Research_%26_Development____4_21_25_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Research_%26_Development____4_21_25_1%3A58_PM.mp3" length="119072392" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found</title>
       <guid>http://wmbr.org/archive/Lost_and_Found____4_21_25_11%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 12:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found____4_21_25_11%3A58_AM.mp3" length="119012206" type="audio/mpeg" />
     </item>
     <item>
       <title>Late Risers' Club</title>
       <guid>http://wmbr.org/archive/Late_Risers%27_Club____4_21_25_9%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 10:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club____4_21_25_9%3A58_AM.mp3" length="119024745" type="audio/mpeg" />
     </item>
     <item>
       <title>Breakfast of Champions</title>
       <guid>http://wmbr.org/archive/Breakfast_of_Champions____4_21_25_7%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 08:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Breakfast_of_Champions____4_21_25_7%3A58_AM.mp3" length="119030596" type="audio/mpeg" />
     </item>
     <item>
       <title>Ceangal Ceilteach</title>
       <guid>http://wmbr.org/archive/Ceangal_Ceilteach____4_21_25_6%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 07:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Ceangal_Ceilteach____4_21_25_6%3A58_AM.mp3" length="61435820" type="audio/mpeg" />
     </item>
     <item>
       <title>Stormy Weather</title>
       <guid>http://wmbr.org/archive/Stormy_Weather____4_21_25_5%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 06:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Stormy_Weather____4_21_25_5%3A58_AM.mp3" length="61450031" type="audio/mpeg" />
     </item>
     <item>
       <title>Lost and Found (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____4_21_25_3%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7442</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 04:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Lost_and_Found_%28rebroadcast%29____4_21_25_3%3A58_AM.mp3" length="119077826" type="audio/mpeg" />
     </item>
     <item>
       <title>Nonstop Ecstatic Screaming (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Nonstop_Ecstatic_Screaming_%28rebroadcast%29____4_21_25_1%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 02:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Nonstop_Ecstatic_Screaming_%28rebroadcast%29____4_21_25_1%3A58_AM.mp3" length="119012206" type="audio/mpeg" />
     </item>
     <item>
       <title>Zero Monthly Listeners (rebroadcast)</title>
       <guid>http://wmbr.org/archive/Zero_Monthly_Listeners_%28rebroadcast%29____4_21_25_12%3A58_AM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3839</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 01:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Zero_Monthly_Listeners_%28rebroadcast%29____4_21_25_12%3A58_AM.mp3" length="61428716" type="audio/mpeg" />
     </item>
     <item>
       <title>Sparks &amp; Embers</title>
       <guid>http://wmbr.org/archive/Sparks_%26_Embers____4_20_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3838</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sparks_%26_Embers____4_20_25_11%3A58_PM.mp3" length="61421610" type="audio/mpeg" />
     </item>
     <item>
       <title>For Your Pleasure</title>
       <guid>http://wmbr.org/archive/For_Your_Pleasure____4_20_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Sun, 20 Apr 2025 22:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/For_Your_Pleasure____4_20_25_9%3A58_PM.mp3" length="119040209" type="audio/mpeg" />
     </item>
     <item>
       <title>From Bindu to Ojas</title>
       <guid>http://wmbr.org/archive/From_Bindu_to_Ojas____4_20_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7440</itunes:duration>
       <pubDate>Sun, 20 Apr 2025 20:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/From_Bindu_to_Ojas____4_20_25_7%3A58_PM.mp3" length="119048568" type="audio/mpeg" />
     </item>
     <item>
       <title>Porcelain Cow</title>
       <guid>http://wmbr.org/archive/Porcelain_Cow____4_20_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Sun, 20 Apr 2025 19:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Porcelain_Cow____4_20_25_6%3A58_PM.mp3" length="61463823" type="audio/mpeg" />
     </item>
     <item>
       <title>Midwest Pizzeria</title>
       <guid>http://wmbr.org/archive/Midwest_Pizzeria____4_20_25_5%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3841</itunes:duration>
       <pubDate>Sun, 20 Apr 2025 18:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____4_20_25_5%3A58_PM.mp3" length="61467585" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Africa Kabisa</title>
-      <guid>http://wmbr.org/archive/Africa_Kabisa____4_20_25_3%3A58_PM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 16:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Africa_Kabisa____4_20_25_3%3A58_PM.mp3" length="119074899" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Treaty of Tordesillas</title>
-      <guid>http://wmbr.org/archive/Treaty_of_Tordesillas____4_20_25_1%3A58_PM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 14:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Treaty_of_Tordesillas____4_20_25_1%3A58_PM.mp3" length="119065287" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Subject to Change</title>
-      <guid>http://wmbr.org/archive/Subject_to_Change____4_20_25_11%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 12:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Subject_to_Change____4_20_25_11%3A58_AM.mp3" length="119010952" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Art &amp; Freight</title>
-      <guid>http://wmbr.org/archive/Art_%26_Freight____4_20_25_10%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 11:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Art_%26_Freight____4_20_25_10%3A58_AM.mp3" length="61419102" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Radio with a View</title>
-      <guid>http://wmbr.org/archive/Radio_with_a_View____4_20_25_9%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 10:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Radio_with_a_View____4_20_25_9%3A58_AM.mp3" length="61438328" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Haiti Focus</title>
-      <guid>http://wmbr.org/archive/Haiti_Focus____4_20_25_7%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 08:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Haiti_Focus____4_20_25_7%3A58_AM.mp3" length="119036029" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Compas sur FM</title>
-      <guid>http://wmbr.org/archive/Compas_sur_FM____4_20_25_5%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 06:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Compas_sur_FM____4_20_25_5%3A58_AM.mp3" length="119052747" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Late Risers' Club (rebroadcast)</title>
-      <guid>http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____4_20_25_3%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 04:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Late_Risers%27_Club_%28rebroadcast%29____4_20_25_3%3A58_AM.mp3" length="119010533" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Radio Ninja (rebroadcast)</title>
-      <guid>http://wmbr.org/archive/Radio_Ninja_%28rebroadcast%29____4_20_25_1%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 02:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Radio_Ninja_%28rebroadcast%29____4_20_25_1%3A58_AM.mp3" length="119027252" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>The Big Beat (rebroadcast)</title>
-      <guid>http://wmbr.org/archive/The_Big_Beat_%28rebroadcast%29____4_20_25_12%3A58_AM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 01:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/The_Big_Beat_%28rebroadcast%29____4_20_25_12%3A58_AM.mp3" length="61434567" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>CPW Late Night Broadcast</title>
-      <guid>http://wmbr.org/archive/CPW_Late_Night_Broadcast____4_19_25_11%3A58_PM.mp3</guid>
-      <pubDate>Sun, 20 Apr 2025 00:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/CPW_Late_Night_Broadcast____4_19_25_11%3A58_PM.mp3" length="59519060" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>CPW Late Night Broadcast</title>
-      <guid>http://wmbr.org/archive/CPW_Late_Night_Broadcast____4_19_25_9%3A58_PM.mp3</guid>
-      <pubDate>Sat, 19 Apr 2025 22:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/CPW_Late_Night_Broadcast____4_19_25_9%3A58_PM.mp3" length="119045643" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Calling the Cranes</title>
-      <guid>http://wmbr.org/archive/Calling_the_Cranes____4_19_25_8%3A58_PM.mp3</guid>
-      <pubDate>Sat, 19 Apr 2025 21:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Calling_the_Cranes____4_19_25_8%3A58_PM.mp3" length="61459644" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
