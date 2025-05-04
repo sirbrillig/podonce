@@ -19,6 +19,7 @@ struct Episode {
 struct Podcast {
     title: String,
     link: String,
+    image_url: String,
     description: String,
     episodes: Vec<Episode>,
 }
@@ -40,6 +41,7 @@ fn main() {
     let podcast = Podcast {
         title: "WMBR Archive".into(),
         link: "https://wmbr.org/cgi-bin/arch".into(),
+        image_url: "https://wmbr.org/images/wmbr_logo_wmbr.svg".into(),
         description: "The most recent WMBR episodes".into(),
         episodes,
     };
@@ -266,20 +268,20 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
 
     writer = write_tag(writer, "title", &podcast.title);
     writer = write_tag(writer, "link", &podcast.link);
+    writer = write_tag(writer, "itunes:image", &podcast.image_url);
+    writer = write_tag(writer, "description", &podcast.description);
+
     writer
-        .write(XmlEvent::start_element("description"))
+        .write(XmlEvent::start_element("itunes:category").attr("text", "Music"))
         .unwrap();
-    writer
-        .write(XmlEvent::characters(&podcast.description))
-        .unwrap();
-    writer.write(XmlEvent::end_element()).unwrap();
+    writer = write_close_tag(writer, "itunes:category");
 
     for episode in &podcast.episodes {
         writer = write_episode(writer, &episode)
     }
 
     writer = write_close_tag(writer, "channel");
-    writer.write(XmlEvent::end_element()).unwrap(); // end rss
+    write_close_tag(writer, "rss");
 
     Ok(())
 }
