@@ -100,20 +100,26 @@ fn get_date_from_html(constants: &Constants, html_episode: ElementRef) -> Result
         Ok(NaiveDateTime::parse_from_str(&date_text_with_year, &constants.date_format)?)
 }
 
+macro_rules! skip_on_err {
+    ($res:expr) => {
+        match $res {
+            Ok(val) => val,
+            Err(e) => {
+                eprintln!("Error: {}; skipped episode.", e);
+                continue;
+            }
+        }
+    };
+}
+
 fn get_episodes(html_content: &str) -> Vec<Episode> {
     let document = scraper::Html::parse_document(html_content);
     let mut episodes: Vec<Episode> = Vec::new();
     let constants = prepare_constants();
     let html_episodes = document.select(&constants.episode_selector);
     for html_episode in html_episodes {
-        let title_text = match get_title_from_html(&constants, html_episode) {
-            Ok(x) => x,
-            Err(_) => continue,
-        };
-        let date = match get_date_from_html(&constants, html_episode) {
-            Ok(x) => x,
-            Err(_) => continue,
-        };
+        let title_text = skip_on_err!(get_title_from_html(&constants, html_episode));
+        let date = skip_on_err!(get_date_from_html(&constants, html_episode));
         let url_element = html_episode.select(&constants.episode_url_selector).next();
         let url_onclick_text = match url_element {
             Some(url_element) => match url_element.attr("onclick") {
