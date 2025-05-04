@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>WMBR Archive</title>
     <link>https://wmbr.org/cgi-bin/arch</link>
@@ -10,9 +10,9 @@
       <title>Midwest Pizzeria</title>
       <guid>http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>596</itunes:duration>
+      <itunes:duration>1077</itunes:duration>
       <pubDate>Sun, 04 May 2025 18:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3" length="9542400" type="audio/mpeg" />
+      <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3" length="17236800" type="audio/mpeg" />
     </item>
     <item>
       <title>Africa Kabisa</title>
