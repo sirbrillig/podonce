@@ -122,6 +122,7 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
     episodes
 }
 
+/// Return the file length in bytes
 fn get_file_length(url: &str) -> Result<usize, Box<dyn Error>> {
     let client = Client::new();
 
@@ -139,6 +140,16 @@ fn get_file_length(url: &str) -> Result<usize, Box<dyn Error>> {
         }
     }
     return Err(Box::from("Content length header not found."));
+}
+
+/// Return the approximate number of seconds for the episode
+fn get_duration_for_episode(episode: &Episode) -> usize {
+    // First convert the file size from bytes to bits.
+    let length_bits = episode.length * 8;
+    // Assume bitrate is 128.
+    let bitrate_kbps = 128;
+    let bitrate_bps = bitrate_kbps * 1000;
+    length_bits / bitrate_bps
 }
 
 fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> {
@@ -169,12 +180,23 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
 
     for episode in &podcast.episodes {
         writer.write(XmlEvent::start_element("item")).unwrap();
+
         writer.write(XmlEvent::start_element("title")).unwrap();
         writer.write(XmlEvent::characters(&episode.title)).unwrap();
         writer.write(XmlEvent::end_element()).unwrap(); // end title
+
         writer.write(XmlEvent::start_element("guid")).unwrap();
         writer.write(XmlEvent::characters(&episode.url)).unwrap();
         writer.write(XmlEvent::end_element()).unwrap(); // end guid
+
+        writer
+            .write(XmlEvent::start_element("itunes:duration"))
+            .unwrap();
+        writer
+            .write(XmlEvent::characters(&get_duration_for_episode(&episode).to_string()))
+            .unwrap();
+        writer.write(XmlEvent::end_element()).unwrap(); // end itunes:duration
+
         writer.write(XmlEvent::start_element("pubDate")).unwrap();
         writer
             .write(XmlEvent::characters(
@@ -182,6 +204,7 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
             ))
             .unwrap();
         writer.write(XmlEvent::end_element()).unwrap(); // end pubDate
+
         writer
             .write(
                 XmlEvent::start_element("enclosure")
@@ -191,11 +214,12 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
             )
             .unwrap();
         writer.write(XmlEvent::end_element()).unwrap(); // end enclosure
+
         writer.write(XmlEvent::end_element()).unwrap(); // end item
     }
 
-    writer.write(XmlEvent::end_element()).unwrap();
-    writer.write(XmlEvent::end_element()).unwrap();
+    writer.write(XmlEvent::end_element()).unwrap(); // end channel
+    writer.write(XmlEvent::end_element()).unwrap(); // end rss
 
     Ok(())
 }
