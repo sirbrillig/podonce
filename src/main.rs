@@ -5,6 +5,7 @@ use reqwest::header::CONTENT_LENGTH;
 use std::error::Error;
 use std::fs::File;
 use xml::writer::{EmitterConfig, EventWriter, XmlEvent};
+use scraper::Selector;
 
 #[derive(Debug)]
 struct Episode {
@@ -22,6 +23,18 @@ struct Podcast {
     episodes: Vec<Episode>,
 }
 
+struct Constants {
+    episode_selector: Selector,
+    episode_title_selector: Selector,
+    episode_date_selector: Selector,
+    episode_url_selector: Selector,
+    episode_year_selector: Selector,
+    date_format: &'static str,
+    year_re: Regex,
+    file_name_re: Regex,
+    url_path_prefix: &'static str,
+}
+
 fn main() {
     let episodes = get_episodes(&get_html());
     let podcast = Podcast {
@@ -33,6 +46,20 @@ fn main() {
     write_podcast_xml(&podcast, "wmbr.xml").unwrap();
 }
 
+fn prepare_constants() -> Constants {
+    Constants {
+    episode_selector : scraper::Selector::parse(".fbody5 tr").unwrap(),
+    episode_title_selector : scraper::Selector::parse("td:first-of-type").unwrap(),
+    episode_date_selector : scraper::Selector::parse("td:nth-of-type(2)").unwrap(),
+    episode_url_selector : scraper::Selector::parse("td:nth-of-type(3) a").unwrap(),
+    episode_year_selector : scraper::Selector::parse("td:nth-of-type(3) a.archives").unwrap(),
+    date_format : "%a %b %d %I:%M %P %Y",
+    year_re : Regex::new(r"_(\d{4})\d+$").unwrap(),
+    file_name_re : Regex::new(r"\('([^']+)'").unwrap(),
+    url_path_prefix : "http://wmbr.org/archive/",
+    }
+}
+
 fn get_html() -> String {
     let response = reqwest::blocking::get("https://wmbr.org/cgi-bin/arch");
     response.unwrap().text().unwrap()
@@ -40,29 +67,21 @@ fn get_html() -> String {
 
 fn get_episodes(html_content: &str) -> Vec<Episode> {
     let document = scraper::Html::parse_document(html_content);
-    let episode_selector = scraper::Selector::parse(".fbody5 tr").unwrap();
-    let episode_title_selector = scraper::Selector::parse("td:first-of-type").unwrap();
-    let episode_date_selector = scraper::Selector::parse("td:nth-of-type(2)").unwrap();
-    let episode_url_selector = scraper::Selector::parse("td:nth-of-type(3) a").unwrap();
-    let episode_year_selector = scraper::Selector::parse("td:nth-of-type(3) a.archives").unwrap();
-    let date_format = "%a %b %d %I:%M %P %Y";
-    let year_re = Regex::new(r"_(\d{4})\d+$").unwrap();
-    let file_name_re = Regex::new(r"\('([^']+)'").unwrap();
-    let url_path_prefix = "http://wmbr.org/archive/";
     let mut episodes: Vec<Episode> = Vec::new();
-    let html_episodes = document.select(&episode_selector);
+    let constants = prepare_constants();
+    let html_episodes = document.select(&constants.episode_selector);
     for html_episode in html_episodes {
-        let title_element = html_episode.select(&episode_title_selector).next();
+        let title_element = html_episode.select(&constants.episode_title_selector).next();
         let title_text = match title_element {
             Some(title_element) => title_element.text().collect::<Vec<_>>().join(""),
             None => continue,
         };
-        let date_element = html_episode.select(&episode_date_selector).next();
+        let date_element = html_episode.select(&constants.episode_date_selector).next();
         let date_text = match date_element {
             Some(date_element) => date_element.text().collect::<Vec<_>>().join(""),
             None => continue,
         };
-        let year_element = html_episode.select(&episode_year_selector).next();
+        let year_element = html_episode.select(&constants.episode_year_selector).next();
         let year_text = match year_element {
             Some(year_element) => match year_element.attr("id") {
                 Some(year_text) => year_text,
@@ -72,7 +91,7 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
             },
             None => continue,
         };
-        let year_captures = match year_re.captures(year_text) {
+        let year_captures = match constants.year_re.captures(year_text) {
             Some(year_captures) => year_captures,
             None => continue,
         };
@@ -82,13 +101,13 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
         }
         let date_year = year;
         let date_text_with_year = date_text + " " + date_year;
-        let date = match NaiveDateTime::parse_from_str(&date_text_with_year, &date_format) {
+        let date = match NaiveDateTime::parse_from_str(&date_text_with_year, &constants.date_format) {
             Ok(date) => date,
             Err(_) => {
                 continue;
             }
         };
-        let url_element = html_episode.select(&episode_url_selector).next();
+        let url_element = html_episode.select(&constants.episode_url_selector).next();
         let url_onclick_text = match url_element {
             Some(url_element) => match url_element.attr("onclick") {
                 Some(url_onclick_text) => url_onclick_text,
@@ -98,7 +117,7 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
             },
             None => continue,
         };
-        let file_name_captures = match file_name_re.captures(url_onclick_text) {
+        let file_name_captures = match constants.file_name_re.captures(url_onclick_text) {
             Some(file_name_captures) => file_name_captures,
             None => continue,
         };
@@ -106,7 +125,7 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
         if file_name.is_empty() {
             continue;
         }
-        let url_text = url_path_prefix.to_owned() + file_name;
+        let url_text = constants.url_path_prefix.to_owned() + file_name;
         let length = match get_file_length(&url_text) {
             Ok(length) => length,
             Err(_) => continue,
