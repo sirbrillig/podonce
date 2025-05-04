@@ -5,7 +5,7 @@ use reqwest::header::CONTENT_LENGTH;
 use std::error::Error;
 use std::fs::File;
 use xml::writer::{EmitterConfig, EventWriter, XmlEvent};
-use scraper::Selector;
+use scraper::{Selector, ElementRef};
 
 #[derive(Debug)]
 struct Episode {
@@ -65,47 +65,54 @@ fn get_html() -> String {
     response.unwrap().text().unwrap()
 }
 
+fn get_title_from_html(constants: &Constants, html_episode: ElementRef) -> Result<String, Box<dyn Error>> {
+        let title_element = html_episode.select(&constants.episode_title_selector).next();
+         match title_element {
+            Some(title_element) => Ok(title_element.text().collect::<Vec<_>>().join("")),
+            None => Err(Box::from("Failed to find title in html")),
+        }
+}
+
+fn get_date_from_html(constants: &Constants, html_episode: ElementRef) -> Result<NaiveDateTime, Box<dyn Error>> {
+        let date_element = html_episode.select(&constants.episode_date_selector).next();
+        let date_text = match date_element {
+            Some(date_element) => date_element.text().collect::<Vec<_>>().join(""),
+                None => return Err(Box::from("Failed to find date in html")),
+        };
+        let year_element = html_episode.select(&constants.episode_year_selector).next();
+        let year_text = match year_element {
+            Some(year_element) => match year_element.attr("id") {
+                Some(year_text) => year_text,
+                None => return Err(Box::from("Failed to find year ID in html")),
+            },
+            None => return Err(Box::from("Failed to find year in html")),
+        };
+        let year_captures = match constants.year_re.captures(year_text) {
+            Some(year_captures) => year_captures,
+            None => return Err(Box::from("Failed to find year number in year text")),
+        };
+        let year = &year_captures[1];
+        if year.is_empty() {
+            return Err(Box::from("Year number was empty in year text"));
+        }
+        let date_year = year;
+        let date_text_with_year = date_text + " " + date_year;
+        Ok(NaiveDateTime::parse_from_str(&date_text_with_year, &constants.date_format)?)
+}
+
 fn get_episodes(html_content: &str) -> Vec<Episode> {
     let document = scraper::Html::parse_document(html_content);
     let mut episodes: Vec<Episode> = Vec::new();
     let constants = prepare_constants();
     let html_episodes = document.select(&constants.episode_selector);
     for html_episode in html_episodes {
-        let title_element = html_episode.select(&constants.episode_title_selector).next();
-        let title_text = match title_element {
-            Some(title_element) => title_element.text().collect::<Vec<_>>().join(""),
-            None => continue,
+        let title_text = match get_title_from_html(&constants, html_episode) {
+            Ok(x) => x,
+            Err(_) => continue,
         };
-        let date_element = html_episode.select(&constants.episode_date_selector).next();
-        let date_text = match date_element {
-            Some(date_element) => date_element.text().collect::<Vec<_>>().join(""),
-            None => continue,
-        };
-        let year_element = html_episode.select(&constants.episode_year_selector).next();
-        let year_text = match year_element {
-            Some(year_element) => match year_element.attr("id") {
-                Some(year_text) => year_text,
-                None => {
-                    continue;
-                }
-            },
-            None => continue,
-        };
-        let year_captures = match constants.year_re.captures(year_text) {
-            Some(year_captures) => year_captures,
-            None => continue,
-        };
-        let year = &year_captures[1];
-        if year.is_empty() {
-            continue;
-        }
-        let date_year = year;
-        let date_text_with_year = date_text + " " + date_year;
-        let date = match NaiveDateTime::parse_from_str(&date_text_with_year, &constants.date_format) {
-            Ok(date) => date,
-            Err(_) => {
-                continue;
-            }
+        let date = match get_date_from_html(&constants, html_episode) {
+            Ok(x) => x,
+            Err(_) => continue,
         };
         let url_element = html_episode.select(&constants.episode_url_selector).next();
         let url_onclick_text = match url_element {
