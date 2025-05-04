@@ -163,11 +163,11 @@ fn get_file_length(url: &str) -> Result<usize, Box<dyn Error>> {
 }
 
 macro_rules! skip_on_err {
-    ($res:expr) => {
+    ($res:expr, $epi:expr) => {
         match $res {
             Ok(val) => val,
             Err(e) => {
-                eprintln!("Error: {}; skipped episode.", e);
+                eprintln!("Error: {}; skipped episode {}.", e, $epi);
                 continue;
             }
         }
@@ -180,10 +180,10 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
     let constants = prepare_constants();
     let html_episodes = document.select(&constants.episode_selector);
     for html_episode in html_episodes {
-        let title = skip_on_err!(get_title_from_html(&constants, html_episode));
-        let date = skip_on_err!(get_date_from_html(&constants, html_episode));
-        let url = skip_on_err!(get_url_from_html(&constants, html_episode));
-        let length = skip_on_err!(get_file_length(&url));
+        let title = skip_on_err!(get_title_from_html(&constants, html_episode), "?");
+        let date = skip_on_err!(get_date_from_html(&constants, html_episode), title);
+        let url = skip_on_err!(get_url_from_html(&constants, html_episode), title + " " + &date.to_string());
+        let length = skip_on_err!(get_file_length(&url), title + " " + &date.to_string());
         let episode = Episode {
             title,
             date,
