@@ -1,7 +1,9 @@
 use chrono::NaiveDateTime;
 use regex::Regex;
+use reqwest::blocking::Client;
+use reqwest::header::CONTENT_LENGTH;
+use std::error::Error;
 use std::fs::File;
-use std::io::Result;
 use xml::writer::{EmitterConfig, XmlEvent};
 
 #[derive(Debug)]
@@ -9,6 +11,7 @@ struct Episode {
     date: NaiveDateTime,
     title: String,
     url: String,
+    length: usize,
 }
 
 #[derive(Debug)]
@@ -104,17 +107,41 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
             continue;
         }
         let url_text = url_path_prefix.to_owned() + file_name;
+        let length = match get_file_length(&url_text) {
+            Ok(length) => length,
+            Err(_) => continue,
+        };
         let episode = Episode {
             title: title_text,
             date,
             url: url_text,
+            length,
         };
         episodes.push(episode);
     }
     episodes
 }
 
-fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> Result<()> {
+fn get_file_length(url: &str) -> Result<usize, Box<dyn Error>> {
+    let client = Client::new();
+
+    let response = client.head(url).send()?;
+
+    if let Some(content_length) = response.headers().get(CONTENT_LENGTH) {
+        if let Ok(content_length_str) = content_length.to_str() {
+            if let Ok(content_length) = content_length_str.parse::<usize>() {
+                return Ok(content_length);
+            } else {
+                return Err(Box::from("Failed to parse content length."));
+            }
+        } else {
+            return Err(Box::from("Couldn't convert content length to str."));
+        }
+    }
+    return Err(Box::from("Content length header not found."));
+}
+
+fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> {
     let file = File::create(file_path)?;
     let mut writer = EmitterConfig::new()
         .perform_indent(true)
@@ -159,8 +186,7 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> Result<()> {
             .write(
                 XmlEvent::start_element("enclosure")
                     .attr("url", &episode.url)
-                    // FIXME: add length attr (size in bytes)
-                    .attr("length", "12355")
+                    .attr("length", &episode.length.to_string())
                     .attr("type", "audio/mpeg"),
             )
             .unwrap();
