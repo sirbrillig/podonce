@@ -4,7 +4,7 @@ use reqwest::blocking::Client;
 use reqwest::header::CONTENT_LENGTH;
 use std::error::Error;
 use std::fs::File;
-use xml::writer::{EmitterConfig, XmlEvent};
+use xml::writer::{EmitterConfig, EventWriter, XmlEvent};
 
 #[derive(Debug)]
 struct Episode {
@@ -152,6 +152,55 @@ fn get_duration_for_episode(episode: &Episode) -> usize {
     length_bits / bitrate_bps
 }
 
+fn format_date_as_rfc2822(date: &NaiveDateTime) -> String {
+    date.format("%a, %d %b %Y %H:%M:%S EST").to_string()
+}
+
+fn write_open_tag(mut writer: EventWriter<File>, name: &str) -> EventWriter<File> {
+    writer.write(XmlEvent::start_element(name)).unwrap();
+    writer
+}
+
+fn write_close_tag(mut writer: EventWriter<File>, _name: &str) -> EventWriter<File> {
+    writer.write(XmlEvent::end_element()).unwrap();
+    writer
+}
+
+fn write_tag(mut writer: EventWriter<File>, name: &str, content: &str) -> EventWriter<File> {
+    writer = write_open_tag(writer, name);
+    writer.write(XmlEvent::characters(content)).unwrap();
+    writer = write_close_tag(writer, name);
+    writer
+}
+
+fn write_audio_tag(mut writer: EventWriter<File>, episode: &Episode) -> EventWriter<File> {
+    writer
+        .write(
+            XmlEvent::start_element("enclosure")
+                .attr("url", &episode.url)
+                .attr("length", &episode.length.to_string())
+                .attr("type", "audio/mpeg"),
+        )
+        .unwrap();
+    writer = write_close_tag(writer, "enclosure");
+    writer
+}
+
+fn write_episode(mut writer: EventWriter<File>, episode: &Episode) -> EventWriter<File> {
+    writer = write_open_tag(writer, "item");
+    writer = write_tag(writer, "title", &episode.title);
+    writer = write_tag(writer, "guid", &episode.url);
+    writer = write_tag(
+        writer,
+        "itunes:duration",
+        &get_duration_for_episode(&episode).to_string(),
+    );
+    writer = write_tag(writer, "pubDate", &format_date_as_rfc2822(&episode.date));
+    writer = write_audio_tag(writer, &episode);
+    writer = write_close_tag(writer, "item");
+    writer
+}
+
 fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> {
     let file = File::create(file_path)?;
     let mut writer = EmitterConfig::new()
@@ -161,15 +210,10 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
     writer
         .write(XmlEvent::start_element("rss").attr("version", "2.0"))
         .unwrap();
-    writer.write(XmlEvent::start_element("channel")).unwrap();
-    // FIXME: add atom:link (see https://validator.w3.org/feed/docs/warning/MissingAtomSelfLink.html)
+    writer = write_open_tag(writer, "channel");
 
-    writer.write(XmlEvent::start_element("title")).unwrap();
-    writer.write(XmlEvent::characters(&podcast.title)).unwrap();
-    writer.write(XmlEvent::end_element()).unwrap();
-    writer.write(XmlEvent::start_element("link")).unwrap();
-    writer.write(XmlEvent::characters(&podcast.link)).unwrap();
-    writer.write(XmlEvent::end_element()).unwrap();
+    writer = write_tag(writer, "title", &podcast.title);
+    writer = write_tag(writer, "link", &podcast.link);
     writer
         .write(XmlEvent::start_element("description"))
         .unwrap();
@@ -179,46 +223,10 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
     writer.write(XmlEvent::end_element()).unwrap();
 
     for episode in &podcast.episodes {
-        writer.write(XmlEvent::start_element("item")).unwrap();
-
-        writer.write(XmlEvent::start_element("title")).unwrap();
-        writer.write(XmlEvent::characters(&episode.title)).unwrap();
-        writer.write(XmlEvent::end_element()).unwrap(); // end title
-
-        writer.write(XmlEvent::start_element("guid")).unwrap();
-        writer.write(XmlEvent::characters(&episode.url)).unwrap();
-        writer.write(XmlEvent::end_element()).unwrap(); // end guid
-
-        writer
-            .write(XmlEvent::start_element("itunes:duration"))
-            .unwrap();
-        writer
-            .write(XmlEvent::characters(&get_duration_for_episode(&episode).to_string()))
-            .unwrap();
-        writer.write(XmlEvent::end_element()).unwrap(); // end itunes:duration
-
-        writer.write(XmlEvent::start_element("pubDate")).unwrap();
-        writer
-            .write(XmlEvent::characters(
-                &episode.date.format("%a, %d %b %Y %H:%M:%S EST").to_string(),
-            ))
-            .unwrap();
-        writer.write(XmlEvent::end_element()).unwrap(); // end pubDate
-
-        writer
-            .write(
-                XmlEvent::start_element("enclosure")
-                    .attr("url", &episode.url)
-                    .attr("length", &episode.length.to_string())
-                    .attr("type", "audio/mpeg"),
-            )
-            .unwrap();
-        writer.write(XmlEvent::end_element()).unwrap(); // end enclosure
-
-        writer.write(XmlEvent::end_element()).unwrap(); // end item
+        writer = write_episode(writer, &episode)
     }
 
-    writer.write(XmlEvent::end_element()).unwrap(); // end channel
+    writer = write_close_tag(writer, "channel");
     writer.write(XmlEvent::end_element()).unwrap(); // end rss
 
     Ok(())
