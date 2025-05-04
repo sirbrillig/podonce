@@ -241,6 +241,7 @@ fn write_episode(mut writer: EventWriter<File>, episode: &Episode) -> EventWrite
     writer = write_open_tag(writer, "item");
     writer = write_tag(writer, "title", &episode.title);
     writer = write_tag(writer, "guid", &episode.url);
+    writer = write_tag(writer, "itunes:explicit", "no");
     writer = write_tag(
         writer,
         "itunes:duration",
