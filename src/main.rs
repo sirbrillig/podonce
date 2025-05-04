@@ -262,7 +262,7 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
         .create_writer(file);
 
     writer
-        .write(XmlEvent::start_element("rss").attr("version", "2.0"))
+        .write(XmlEvent::start_element("rss").attr("version", "2.0").attr("xmlns:itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd"))
         .unwrap();
     writer = write_open_tag(writer, "channel");
 
