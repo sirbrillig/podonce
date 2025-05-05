@@ -3,16 +3,48 @@
   <channel>
     <title>WMBR Archive</title>
     <link>https://wmbr.org/cgi-bin/arch</link>
-    <itunes:image>https://wmbr.org/images/wmbr_logo_wmbr.svg</itunes:image>
+    <itunes:image href="https://wmbr.org/images/wmbr_logo_wmbr.svg" />
     <description>The most recent WMBR episodes</description>
     <itunes:category text="Music" />
+    <item>
+      <title>Sparks &amp; Embers</title>
+      <guid>http://wmbr.org/archive/Sparks_%26_Embers____5_4_25_11%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>2361</itunes:duration>
+      <pubDate>Mon, 05 May 2025 00:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Sparks_%26_Embers____5_4_25_11%3A58_PM.mp3" length="37779000" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>For Your Pleasure</title>
+      <guid>http://wmbr.org/archive/For_Your_Pleasure____5_4_25_9%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7439</itunes:duration>
+      <pubDate>Sun, 04 May 2025 22:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/For_Your_Pleasure____5_4_25_9%3A58_PM.mp3" length="119025200" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>From Bindu to Ojas</title>
+      <guid>http://wmbr.org/archive/From_Bindu_to_Ojas____5_4_25_7%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
+      <pubDate>Sun, 04 May 2025 20:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/From_Bindu_to_Ojas____5_4_25_7%3A58_PM.mp3" length="119023491" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Porcelain Cow</title>
+      <guid>http://wmbr.org/archive/Porcelain_Cow____5_4_25_6%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>3840</itunes:duration>
+      <pubDate>Sun, 04 May 2025 19:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Porcelain_Cow____5_4_25_6%3A58_PM.mp3" length="61445434" type="audio/mpeg" />
+    </item>
     <item>
       <title>Midwest Pizzeria</title>
       <guid>http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>1077</itunes:duration>
+      <itunes:duration>3840</itunes:duration>
       <pubDate>Sun, 04 May 2025 18:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3" length="17236800" type="audio/mpeg" />
+      <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____5_4_25_5%3A58_PM.mp3" length="61455465" type="audio/mpeg" />
     </item>
     <item>
       <title>Africa Kabisa</title>
@@ -20,7 +52,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>7441</itunes:duration>
       <pubDate>Sun, 04 May 2025 16:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Africa_Kabisa____5_4_25_3%3A58_PM.mp3" length="119057400" type="audio/mpeg" />
+      <enclosure url="http://wmbr.org/archive/Africa_Kabisa____5_4_25_3%3A58_PM.mp3" length="119056928" type="audio/mpeg" />
     </item>
     <item>
       <title>Treaty of Tordesillas</title>
@@ -1861,38 +1893,6 @@
       <itunes:duration>3838</itunes:duration>
       <pubDate>Mon, 21 Apr 2025 00:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Sparks_%26_Embers____4_20_25_11%3A58_PM.mp3" length="61421610" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>For Your Pleasure</title>
-      <guid>http://wmbr.org/archive/For_Your_Pleasure____4_20_25_9%3A58_PM.mp3</guid>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7440</itunes:duration>
-      <pubDate>Sun, 20 Apr 2025 22:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/For_Your_Pleasure____4_20_25_9%3A58_PM.mp3" length="119040209" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>From Bindu to Ojas</title>
-      <guid>http://wmbr.org/archive/From_Bindu_to_Ojas____4_20_25_7%3A58_PM.mp3</guid>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7440</itunes:duration>
-      <pubDate>Sun, 20 Apr 2025 20:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/From_Bindu_to_Ojas____4_20_25_7%3A58_PM.mp3" length="119048568" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Porcelain Cow</title>
-      <guid>http://wmbr.org/archive/Porcelain_Cow____4_20_25_6%3A58_PM.mp3</guid>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>3841</itunes:duration>
-      <pubDate>Sun, 20 Apr 2025 19:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Porcelain_Cow____4_20_25_6%3A58_PM.mp3" length="61463823" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Midwest Pizzeria</title>
-      <guid>http://wmbr.org/archive/Midwest_Pizzeria____4_20_25_5%3A58_PM.mp3</guid>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>3841</itunes:duration>
-      <pubDate>Sun, 20 Apr 2025 18:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Midwest_Pizzeria____4_20_25_5%3A58_PM.mp3" length="61467585" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
