@@ -41,7 +41,7 @@ fn main() {
     let podcast = Podcast {
         title: "WMBR Archive".into(),
         link: "https://wmbr.org/cgi-bin/arch".into(),
-        image_url: "https://wmbr.org/images/wmbr_logo_wmbr.svg".into(),
+        image_url: "https://www.radio.net/300/wmbr.png".into(),
         description: "The most recent WMBR episodes".into(),
         episodes,
     };
