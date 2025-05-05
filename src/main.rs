@@ -182,7 +182,10 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
     for html_episode in html_episodes {
         let title = skip_on_err!(get_title_from_html(&constants, html_episode), "?");
         let date = skip_on_err!(get_date_from_html(&constants, html_episode), title);
-        let url = skip_on_err!(get_url_from_html(&constants, html_episode), title + " " + &date.to_string());
+        let url = skip_on_err!(
+            get_url_from_html(&constants, html_episode),
+            title + " " + &date.to_string()
+        );
         let length = skip_on_err!(get_file_length(&url), title + " " + &date.to_string());
         let episode = Episode {
             title,
@@ -262,13 +265,20 @@ fn write_podcast_xml(podcast: &Podcast, file_path: &str) -> std::io::Result<()> 
         .create_writer(file);
 
     writer
-        .write(XmlEvent::start_element("rss").attr("version", "2.0").attr("xmlns:itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd"))
+        .write(
+            XmlEvent::start_element("rss")
+                .attr("version", "2.0")
+                .attr("xmlns:itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd"),
+        )
         .unwrap();
     writer = write_open_tag(writer, "channel");
 
     writer = write_tag(writer, "title", &podcast.title);
     writer = write_tag(writer, "link", &podcast.link);
-    writer = write_tag(writer, "itunes:image", &podcast.image_url);
+    writer
+        .write(XmlEvent::start_element("itunes:image").attr("href", &podcast.image_url))
+        .unwrap();
+    writer = write_close_tag(writer, "itunes:image");
     writer = write_tag(writer, "description", &podcast.description);
 
     writer
