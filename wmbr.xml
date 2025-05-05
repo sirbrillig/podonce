@@ -3,7 +3,7 @@
   <channel>
     <title>WMBR Archive</title>
     <link>https://wmbr.org/cgi-bin/arch</link>
-    <itunes:image href="https://wmbr.org/images/wmbr_logo_wmbr.svg" />
+    <itunes:image href="https://www.radio.net/300/wmbr.png" />
     <description>The most recent WMBR episodes</description>
     <itunes:category text="Music" />
     <item>
