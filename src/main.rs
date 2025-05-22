@@ -167,7 +167,7 @@ macro_rules! skip_on_err {
         match $res {
             Ok(val) => val,
             Err(e) => {
-                eprintln!("Error: {}; skipped episode {}.", e, $epi);
+                eprintln!("Error: {}; skipped episode '{}'.", e, $epi);
                 continue;
             }
         }
