@@ -74,10 +74,17 @@ fn get_title_from_html(
     let title_element = html_episode
         .select(&constants.episode_title_selector)
         .next();
-    match title_element {
+    let title_text = match title_element {
         Some(title_element) => Ok(title_element.text().collect::<Vec<_>>().join("")),
         None => Err(Box::from("Failed to find title in html")),
-    }
+    };
+    title_text.and_then(|s| {
+        if s.trim().is_empty() {
+            Err(Box::from("Failed to find title in html"))
+        } else {
+            Ok(s)
+        }
+    })
 }
 
 fn get_date_from_html(
