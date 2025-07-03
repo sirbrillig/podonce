@@ -38,12 +38,13 @@ struct Constants {
 
 fn main() {
     let episodes = get_episodes(&get_html());
+    let only_coffeetime = episodes.into_iter().filter(|e| e.title.contains("Coffeetime")).collect();
     let podcast = Podcast {
         title: "WMBR Archive".into(),
         link: "https://wmbr.org/cgi-bin/arch".into(),
         image_url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx38L_SkXJk3wENGPyrXd-LSuKa0YIfBbur83eolqNVf9-qywXy_S42Ymq3DcAddbYq0O6agsUEB5MhiC3c3jiuSsCkCqJdG0UAQvQsuhs1T_45UA214mrMhpm6cLLPCYcMEOb1e_y4_CX/s1600/wmbr5.jpg".into(),
         description: "The most recent WMBR episodes".into(),
-        episodes,
+        episodes: only_coffeetime,
     };
     write_podcast_xml(&podcast, "wmbr.xml").unwrap();
 }
