@@ -194,6 +194,7 @@ fn get_episodes(html_content: &str) -> Vec<Episode> {
             title + " " + &date.to_string()
         );
         let length = skip_on_err!(get_file_length(&url), title + " " + &date.to_string());
+        eprintln!("Added episode: '{}' at {}.", title, date);
         let episode = Episode {
             title,
             date,
