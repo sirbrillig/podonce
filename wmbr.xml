@@ -7,28 +7,20 @@
     <description>The most recent WMBR episodes</description>
     <itunes:category text="Music" />
     <item>
-      <title>Coffeetime (rebroadcast)</title>
-      <guid>http://wmbr.org/archive/Coffeetime_%28rebroadcast%29____6_29_25_11%3A58_PM.mp3</guid>
+      <title>Coffeetime</title>
+      <guid>http://wmbr.org/archive/Coffeetime____7_25_25_1%3A58_PM.mp3</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7437</itunes:duration>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Coffeetime_%28rebroadcast%29____6_29_25_11%3A58_PM.mp3" length="118993816" type="audio/mpeg" />
+      <itunes:duration>7442</itunes:duration>
+      <pubDate>Fri, 25 Jul 2025 14:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Coffeetime____7_25_25_1%3A58_PM.mp3" length="119079497" type="audio/mpeg" />
     </item>
     <item>
       <title>Coffeetime</title>
-      <guid>http://wmbr.org/archive/Coffeetime____6_27_25_1%3A58_PM.mp3</guid>
+      <guid>http://wmbr.org/archive/Coffeetime____7_18_25_1%3A58_PM.mp3</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7438</itunes:duration>
-      <pubDate>Fri, 27 Jun 2025 14:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Coffeetime____6_27_25_1%3A58_PM.mp3" length="119015132" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Coffeetime</title>
-      <guid>http://wmbr.org/archive/Coffeetime____6_20_25_1%3A58_PM.mp3</guid>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7439</itunes:duration>
-      <pubDate>Fri, 20 Jun 2025 14:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Coffeetime____6_20_25_1%3A58_PM.mp3" length="119030178" type="audio/mpeg" />
+      <itunes:duration>7442</itunes:duration>
+      <pubDate>Fri, 18 Jul 2025 14:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Coffeetime____7_18_25_1%3A58_PM.mp3" length="119073646" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
