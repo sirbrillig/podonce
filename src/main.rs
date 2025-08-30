@@ -37,14 +37,14 @@ struct Constants {
 }
 
 fn main() {
-    let episodes = get_episodes(&get_html());
-    let only_coffeetime = episodes.into_iter().filter(|e| e.title.contains("Coffeetime")).collect();
+    // TODO make the filter a CLI option
+    let episodes = get_episodes(&get_html(), Some("Coffeetime"));
     let podcast = Podcast {
         title: "WMBR Archive".into(),
         link: "https://wmbr.org/cgi-bin/arch".into(),
         image_url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx38L_SkXJk3wENGPyrXd-LSuKa0YIfBbur83eolqNVf9-qywXy_S42Ymq3DcAddbYq0O6agsUEB5MhiC3c3jiuSsCkCqJdG0UAQvQsuhs1T_45UA214mrMhpm6cLLPCYcMEOb1e_y4_CX/s1600/wmbr5.jpg".into(),
         description: "The most recent WMBR episodes".into(),
-        episodes: only_coffeetime,
+        episodes,
     };
     write_podcast_xml(&podcast, "wmbr.xml").unwrap();
 }
@@ -182,13 +182,20 @@ macro_rules! skip_on_err {
     };
 }
 
-fn get_episodes(html_content: &str) -> Vec<Episode> {
+fn get_episodes(html_content: &str, filter: Option<&str>) -> Vec<Episode> {
     let document = scraper::Html::parse_document(html_content);
     let mut episodes: Vec<Episode> = Vec::new();
     let constants = prepare_constants();
     let html_episodes = document.select(&constants.episode_selector);
     for html_episode in html_episodes {
         let title = skip_on_err!(get_title_from_html(&constants, html_episode), "?");
+
+        if let Some(filter_string) = filter {
+            if ! title.contains(filter_string) {
+                continue;
+            }
+        }
+
         let date = skip_on_err!(get_date_from_html(&constants, html_episode), title);
         let url = skip_on_err!(
             get_url_from_html(&constants, html_episode),
