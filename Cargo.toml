@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 chrono = "0.4.41"
+clap = { version = "4.5.46", features = ["derive"] }
 regex = "1.11.1"
 reqwest = { version = "0.12.15", features = ["blocking"] }
 scraper = "0.23.1"

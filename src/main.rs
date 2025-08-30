@@ -1,4 +1,5 @@
 use chrono::NaiveDateTime;
+use clap::Parser;
 use regex::Regex;
 use reqwest::blocking::Client;
 use reqwest::header::CONTENT_LENGTH;
@@ -36,9 +37,17 @@ struct Constants {
     url_path_prefix: &'static str,
 }
 
+#[derive(Parser, Debug)]
+#[command(version, about, long_about = None)]
+struct Cli {
+    /// Optional string to filter the episode titles (case-sensitive)
+    #[arg(short, long)]
+    filter: Option<String>,
+}
+
 fn main() {
-    // TODO make the filter a CLI option
-    let episodes = get_episodes(&get_html(), Some("Coffeetime"));
+    let args = Cli::parse();
+    let episodes = get_episodes(&get_html(), args.filter);
     let podcast = Podcast {
         title: "WMBR Archive".into(),
         link: "https://wmbr.org/cgi-bin/arch".into(),
@@ -182,7 +191,7 @@ macro_rules! skip_on_err {
     };
 }
 
-fn get_episodes(html_content: &str, filter: Option<&str>) -> Vec<Episode> {
+fn get_episodes(html_content: &str, filter: Option<String>) -> Vec<Episode> {
     let document = scraper::Html::parse_document(html_content);
     let mut episodes: Vec<Episode> = Vec::new();
     let constants = prepare_constants();
@@ -190,8 +199,8 @@ fn get_episodes(html_content: &str, filter: Option<&str>) -> Vec<Episode> {
     for html_episode in html_episodes {
         let title = skip_on_err!(get_title_from_html(&constants, html_episode), "?");
 
-        if let Some(filter_string) = filter {
-            if ! title.contains(filter_string) {
+        if let Some(filter_string) = &filter {
+            if !title.contains(filter_string) {
                 continue;
             }
         }
