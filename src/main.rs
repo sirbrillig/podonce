@@ -184,7 +184,9 @@ macro_rules! skip_on_err {
         match $res {
             Ok(val) => val,
             Err(e) => {
-                eprintln!("Error: {}; skipped episode '{}'.", e, $epi);
+                if let Some(episode) = $epi {
+                    eprintln!("Error: {}; skipped episode '{}'.", e, episode);
+                }
                 continue;
             }
         }
@@ -197,7 +199,7 @@ fn get_episodes(html_content: &str, filter: Option<String>) -> Vec<Episode> {
     let constants = prepare_constants();
     let html_episodes = document.select(&constants.episode_selector);
     for html_episode in html_episodes {
-        let title = skip_on_err!(get_title_from_html(&constants, html_episode), "?");
+        let title = skip_on_err!(get_title_from_html(&constants, html_episode), None::<&str>);
 
         if let Some(filter_string) = &filter {
             if !title.contains(filter_string) {
@@ -205,12 +207,12 @@ fn get_episodes(html_content: &str, filter: Option<String>) -> Vec<Episode> {
             }
         }
 
-        let date = skip_on_err!(get_date_from_html(&constants, html_episode), title);
+        let date = skip_on_err!(get_date_from_html(&constants, html_episode), Some(title));
         let url = skip_on_err!(
             get_url_from_html(&constants, html_episode),
-            title + " " + &date.to_string()
+            Some(title + " " + &date.to_string())
         );
-        let length = skip_on_err!(get_file_length(&url), title + " " + &date.to_string());
+        let length = skip_on_err!(get_file_length(&url), Some(title + " " + &date.to_string()));
         eprintln!("Added episode: '{}' at {}.", title, date);
         let episode = Episode {
             title,
