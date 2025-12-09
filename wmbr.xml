@@ -8,19 +8,19 @@
     <itunes:category text="Music" />
     <item>
       <title>Coffeetime</title>
-      <guid>http://wmbr.org/archive/Coffeetime____11_14_25_1%3A58_PM.mp3</guid>
+      <guid>http://wmbr.org/archive/Coffeetime____12_5_25_1%3A58_PM.mp3</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7440</itunes:duration>
-      <pubDate>Fri, 14 Nov 2025 14:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Coffeetime____11_14_25_1%3A58_PM.mp3" length="119051494" type="audio/mpeg" />
+      <itunes:duration>7442</itunes:duration>
+      <pubDate>Fri, 05 Dec 2025 14:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Coffeetime____12_5_25_1%3A58_PM.mp3" length="119076572" type="audio/mpeg" />
     </item>
     <item>
       <title>Coffeetime</title>
-      <guid>http://wmbr.org/archive/Coffeetime____11_7_25_1%3A58_PM.mp3</guid>
+      <guid>http://wmbr.org/archive/Coffeetime____11_28_25_1%3A58_PM.mp3</guid>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7441</itunes:duration>
-      <pubDate>Fri, 07 Nov 2025 14:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Coffeetime____11_7_25_1%3A58_PM.mp3" length="119062779" type="audio/mpeg" />
+      <itunes:duration>7442</itunes:duration>
+      <pubDate>Fri, 28 Nov 2025 14:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Coffeetime____11_28_25_1%3A58_PM.mp3" length="119072392" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
