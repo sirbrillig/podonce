@@ -8,27 +8,19 @@
     <itunes:category text="Music" />
     <item>
       <title>Coffeetime</title>
+      <guid>http://wmbr.org/archive/Coffeetime____4_10_26_1%3A58_PM.mp3</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>7438</itunes:duration>
+      <pubDate>Fri, 10 Apr 2026 14:00:00 EST</pubDate>
+      <enclosure url="http://wmbr.org/archive/Coffeetime____4_10_26_1%3A58_PM.mp3" length="119008026" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Coffeetime</title>
       <guid>http://wmbr.org/archive/Coffeetime____4_3_26_1%3A58_PM.mp3</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:duration>7441</itunes:duration>
       <pubDate>Fri, 03 Apr 2026 14:00:00 EST</pubDate>
       <enclosure url="http://wmbr.org/archive/Coffeetime____4_3_26_1%3A58_PM.mp3" length="119061107" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Coffeetime</title>
-      <guid>http://wmbr.org/archive/Coffeetime____3_27_26_1%3A58_PM.mp3</guid>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7442</itunes:duration>
-      <pubDate>Fri, 27 Mar 2026 14:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Coffeetime____3_27_26_1%3A58_PM.mp3" length="119083676" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Coffeetime (rebroadcast)</title>
-      <guid>http://wmbr.org/archive/Coffeetime_%28rebroadcast%29____3_23_26_4%3A58_AM.mp3</guid>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:duration>7435</itunes:duration>
-      <pubDate>Mon, 23 Mar 2026 05:00:00 EST</pubDate>
-      <enclosure url="http://wmbr.org/archive/Coffeetime_%28rebroadcast%29____3_23_26_4%3A58_AM.mp3" length="118967484" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
